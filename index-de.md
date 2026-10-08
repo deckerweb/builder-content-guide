@@ -33,4 +33,4 @@ Kuratierte Anleitungen helfen Mitarbeitern, den richtigen Bearbeitungsort zu fin
 
 [Repository](https://github.com/deckerweb/builder-content-guide) · [Deutsches Wiki](https://github.com/deckerweb/builder-content-guide/wiki/Home-de)
 
-Version 1.0.0 ist als Release-Kandidat vorbereitet. Ein Stable Release wurde noch nicht veröffentlicht. Voraussetzungen: WordPress 7.0+ und PHP 8.0+.
+[Version 1.0.0 ist veröffentlicht](https://github.com/deckerweb/builder-content-guide/releases/tag/1.0.0). Voraussetzungen: WordPress 7.0+ und PHP 8.0+.

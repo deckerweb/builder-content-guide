@@ -1,6 +1,6 @@
 ## Changelog
 
-### 1.0.0 — Release candidate (2026-10-08)
+### 1.0.0 — Stable Release (2026-10-08)
 
 - **New:** Curated content guide for WordPress patterns, Bricks templates and GeneratePress elements.
 - **New:** Reader help with supported content types and an optional support contact.

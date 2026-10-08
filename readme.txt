@@ -12,7 +12,7 @@ Curated instructions for everyday website tasks: find the original content, unde
 
 == Description ==
 
-Version 1.0.0 · Release candidate / Release-Kandidat · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
 
 * Compact task list with search by name, purpose and original title, an area filter and a detail panel. Direct admin submenus provide access to finding content, managing the guide and adding entries.
 * WordPress pages, posts, template parts, block navigation and classic menus; patterns, active Elementor Free/Pro documents, Bricks templates and GeneratePress Elements.
@@ -77,4 +77,4 @@ Guide entries and access settings remain. The updater cache is removed. The embe
 * Improved: Direct admin submenus for finding content, managing the guide and adding entries.
 * Improved: Additional search terms, help after unsuccessful searches and reminders before editing shared building blocks.
 
-Actual PHP 8.0 execution, a licensed Bricks editing workflow, real GP Premium Elements and a three-task client pilot still require acceptance testing. This package is a release candidate; publication follows completion of the outstanding acceptance checks. Tested with Elementor Free 4.3.4 and Elementor Pro 4.3.1. Inactive document types are unavailable; clipboard failure falls back to selecting the link for manual copying.
+Runtime checks: WordPress 7.0 with PHP 8.1.29 and WordPress 7.1.3 with PHP 8.4.5. PHP 8.0 has not been tested. Tested with Elementor Free 4.3.4 and Elementor Pro 4.3.1. Inactive document types are unavailable; clipboard failure falls back to selecting the link for manual copying.

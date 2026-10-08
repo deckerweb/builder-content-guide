@@ -8,7 +8,7 @@ Curate a few clear instructions for frequent tasks and common pitfalls. Every co
 
 Hinterlege wenige verständliche Anleitungen für häufige Pflegeaufgaben und typische Stolpersteine. Nicht jeder Inhalt braucht einen Guide. Wähle unten deine Sprache.
 
-Version 1.0.0 · Release candidate / Release-Kandidat · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
 
 | English | Deutsch |
 | --- | --- |

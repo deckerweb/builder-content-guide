@@ -6,7 +6,7 @@
 
 Finde den passenden Website-Baustein, verstehe die Wirkung einer Änderung und öffne den Original-Editor. Die Website-Betreuung kuratiert eine kleine Übergabeübersicht; Inhalte bleiben in WordPress und seinen aktiven Buildern. Nicht jeder Inhalt braucht einen Guide. Starte mit häufigen Pflegeaufgaben, typischen Stolpersteinen und gemeinsam verwendeten Vorlagen, deren Änderungen mehrere Stellen betreffen.
 
-Version 1.0.0 · Release-Kandidat · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
 
 [Nutzungsanleitung](docs/usage-de.md) · [Fragen nach Themen](docs/FAQ-de.md) · [Dokumentation](https://deckerweb.github.io/builder-content-guide/index-de.html) · [English](README.md)
 
@@ -126,15 +126,15 @@ Guide-Einträge, Leserzugriff, Ansprechpartner und Menüeinstellungen werden get
 
 ## Optionale Online-Dienste
 
-Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 0.8.1 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.1.0 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Der Quellcode ist unter https://github.com/deckerweb/builder-content-guide verfügbar. Ein Stable Release wurde noch nicht veröffentlicht.
+Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 0.8.1 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.1.0 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Der Quellcode ist unter https://github.com/deckerweb/builder-content-guide verfügbar.
 
 ## Prüfstand
 
-Die tatsächliche Ausführung unter PHP 8.0, der Bearbeitungsablauf mit lizenziertem Bricks, echte GP-Premium-Elements und ein Kundenpilot mit drei Pflegeaufgaben müssen noch abgenommen werden. Dieses Paket ist ein Release-Kandidat; die Veröffentlichung folgt nach Abschluss der offenen Abnahmeprüfungen. Getestet mit Elementor Free 4.3.4 und Elementor Pro 4.3.1. Inaktive Dokumenttypen sind nicht verfügbar; bei fehlendem Zugriff auf die Zwischenablage wird der Link zum manuellen Kopieren markiert.
+Laufzeitprüfungen: WordPress 7.0 mit PHP 8.1.29 und WordPress 7.1.3 mit PHP 8.4.5. PHP 8.0 wurde nicht getestet. Getestet mit Elementor Free 4.3.4 und Elementor Pro 4.3.1. Inaktive Dokumenttypen sind nicht verfügbar; bei fehlendem Zugriff auf die Zwischenablage wird der Link zum manuellen Kopieren markiert.
 
 ## Änderungsverlauf
 
-### 1.0.0 — Release-Kandidat (2026-10-08)
+### 1.0.0 — Stable Release (2026-10-08)
 
 - **Neu:** Kuratierter Content Guide für WordPress-Patterns, Bricks-Templates und GeneratePress-Elements.
 - **Neu:** Leserhilfe mit unterstützten Inhaltstypen und optionalem Ansprechpartner.

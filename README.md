@@ -6,7 +6,7 @@
 
 Find the right website building block, understand what a change affects, and open its original editor. The website administrator curates a small handover guide; content stays in WordPress and its active builders. You do not need a guide for every content item. Start with frequent maintenance tasks, common stumbling blocks and shared templates whose changes affect several places.
 
-Version 1.0.0 · Release candidate · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
 
 [User guide](docs/usage.md) · [FAQ by topic](docs/FAQ.md) · [Documentation](https://deckerweb.github.io/builder-content-guide/index.html) · [Deutsch](README-de.md)
 
@@ -130,11 +130,11 @@ The guide works locally and has no cloud or AI service dependency. Bundled decke
 
 ## Testing status
 
-Actual PHP 8.0 execution, a licensed Bricks editing workflow, real GP Premium Elements and a three-task client pilot still require acceptance testing. This package is a release candidate; publication follows completion of the outstanding acceptance checks. Tested with Elementor Free 4.3.4 and Elementor Pro 4.3.1. Inactive document types are unavailable; clipboard failure falls back to selecting the link for manual copying.
+Runtime checks: WordPress 7.0 with PHP 8.1.29 and WordPress 7.1.3 with PHP 8.4.5. PHP 8.0 has not been tested. Tested with Elementor Free 4.3.4 and Elementor Pro 4.3.1. Inactive document types are unavailable; clipboard failure falls back to selecting the link for manual copying.
 
 ## Changelog
 
-### 1.0.0 — Release candidate (2026-10-08)
+### 1.0.0 — Stable Release (2026-10-08)
 
 - **New:** Curated content guide for WordPress patterns, Bricks templates and GeneratePress elements.
 - **New:** Reader help with supported content types and an optional support contact.

@@ -1,6 +1,6 @@
 ## Änderungsverlauf
 
-### 1.0.0 — Release-Kandidat (2026-10-08)
+### 1.0.0 — Stable Release (2026-10-08)
 
 - **Neu:** Kuratierter Content Guide für WordPress-Patterns, Bricks-Templates und GeneratePress-Elements.
 - **Neu:** Leserhilfe mit unterstützten Inhaltstypen und optionalem Ansprechpartner.
