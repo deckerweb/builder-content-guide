@@ -1,0 +1,1444 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-08 12:00+0200\n"
+"Last-Translator: David Decker\n"
+"Language-Team: German\n"
+"Project-Id-Version: Builder Content Guide 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+msgid "%s (copy)"
+msgstr "%s (Kopie)"
+
+msgid "(opens in a new tab)"
+msgstr "(öffnet in einem neuen Tab)"
+
+msgid ""
+"Adapt the menu to this website, for example Instructions or Website help. "
+"Plugin identity and guide permissions stay the same."
+msgstr ""
+"Passe das Menü an diese Website an, zum Beispiel Anleitung oder Website-"
+"Hilfe. Plugin-Identität und Guide-Rechte bleiben erhalten."
+
+msgid "Add guide entry"
+msgstr "Guide-Eintrag hinzufügen"
+
+msgid "Additional search terms"
+msgstr "Zusätzliche Suchbegriffe"
+
+msgid ""
+"Additional search terms, help after unsuccessful searches and reminders "
+"before editing shared building blocks."
+msgstr ""
+"Zusätzliche Suchbegriffe, Hilfe bei erfolgloser Suche und Hinweise vor der "
+"Bearbeitung gemeinsam verwendeter Bausteine."
+
+msgid ""
+"Additional website building blocks, such as a notice below articles. "
+"Requires an active Elements integration."
+msgstr ""
+"Zusätzliche Website-Bausteine, etwa ein Hinweis unter Artikeln. Dafür muss "
+"die Elements-Integration aktiv sein."
+
+msgid "Admin menu"
+msgstr "Admin-Menü"
+
+msgid "All areas"
+msgstr "Alle Bereiche"
+
+msgid "All content types"
+msgstr "Alle Inhaltstypen"
+
+msgid "All providers"
+msgstr "Alle Provider"
+
+msgid ""
+"An available source does not mean a guide entry already exists or that you "
+"can edit its originals."
+msgstr ""
+"Eine verfügbare Quelle bedeutet noch nicht, dass ein Guide-Eintrag vorhanden "
+"ist oder du ihre Originale bearbeiten darfst."
+
+msgid ""
+"Block navigation opens in the Site Editor; classic menus open in the menu "
+"editor. Changing a menu label does not change the linked page title or "
+"content. Check all places where the menu is used. Block navigation editing "
+"requires a block theme; classic menu editing requires theme menu or widget "
+"support."
+msgstr ""
+"Block-Navigation öffnet sich im Website-Editor, klassische Menüs im Menü-"
+"Editor. Eine geänderte Menübeschriftung ändert weder den Titel noch den "
+"Inhalt der verlinkten Seite. Prüfe alle Stellen, an denen das Menü verwendet "
+"wird. Für die Bearbeitung von Block-Navigation wird ein Block-Theme "
+"benötigt; klassische Menüs erfordern Menü- oder Widget-Unterstützung des "
+"Themes."
+
+msgid "Book"
+msgstr "Buch"
+
+msgid "Bricks template"
+msgstr "Bricks-Template"
+
+msgid "Bricks templates"
+msgstr "Bricks-Templates"
+
+msgid ""
+"Builder Content Guide updates are unavailable. Check the shared updater "
+"integration."
+msgstr ""
+"Updates für Builder Content Guide sind nicht verfügbar. Bitte die Einbindung "
+"des gemeinsamen Updaters prüfen."
+
+msgid "Change affects multiple places"
+msgstr "Änderung gilt an mehreren Stellen"
+
+msgid "Change affects only this place"
+msgstr "Änderung gilt nur hier"
+
+msgid "Changelog"
+msgstr "Änderungsverlauf"
+
+msgid "Check usage"
+msgstr "Verwendung prüfen"
+
+msgid ""
+"Check usage before editing. If unsure, ask your website support contact."
+msgstr ""
+"Prüfe vor der Bearbeitung die Verwendung. Frage bei Unsicherheit deinen "
+"Ansprechpartner für die Website."
+
+msgid ""
+"Choose Edit original if you have editing permission. You will work in the "
+"original editor."
+msgstr ""
+"Wähle Original bearbeiten, wenn du die nötigen Rechte hast. Du arbeitest "
+"dann im Original-Editor."
+
+msgid "Choose an original"
+msgstr "Original auswählen"
+
+msgid "Choose an original and provide a name, purpose and website area."
+msgstr "Wähle ein Original und gib einen Namen, Zweck und Website-Bereich an."
+
+msgid "Clipboard"
+msgstr "Klemmbrett"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Common questions"
+msgstr "Häufige Fragen"
+
+msgid "Content guide"
+msgstr "Content Guide"
+
+msgid "Content type"
+msgstr "Inhaltstyp"
+
+msgid "Copy guide link"
+msgstr "Guide-Link kopieren"
+
+msgid "Could not access the update filesystem."
+msgstr "Kein Zugriff auf das Dateisystem für das Update."
+
+msgid "Could not create the update download file."
+msgstr "Die Download-Datei für das Update konnte nicht erstellt werden."
+
+msgid "Could not prepare the GitHub release package."
+msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
+
+msgid ""
+"Curated content guide for WordPress patterns, Bricks templates and "
+"GeneratePress elements."
+msgstr ""
+"Kuratierter Content Guide für WordPress-Patterns, Bricks-Templates und "
+"GeneratePress-Elements."
+
+msgid "Customizable site admin menu name and bundled WordPress icon."
+msgstr ""
+"Anpassbarer Admin-Menüname und lokal bereitgestelltes WordPress-Icon je "
+"Website."
+
+msgid ""
+"Direct admin submenus for finding content, managing the guide and adding "
+"entries."
+msgstr ""
+"Direkte Admin-Untermenüs zum Finden von Inhalten, Pflegen des Guides und "
+"Hinzufügen von Einträgen."
+
+msgid "Direct link to this guide"
+msgstr "Direktlink zu diesem Guide"
+
+msgid "Do I edit content inside the guide?"
+msgstr "Bearbeite ich den Inhalt hier im Guide?"
+
+msgid "Does the guide appear in the post editor?"
+msgstr "Erscheint die Anleitung auch im Beitragseditor?"
+
+msgid "Draft"
+msgstr "Entwurf"
+
+msgid "Duplicate guide as draft"
+msgstr "Guide als Entwurf duplizieren"
+
+msgid "Edit guide entry"
+msgstr "Guide-Eintrag bearbeiten"
+
+msgid "Edit original"
+msgstr "Original bearbeiten"
+
+msgid "Editing guidance"
+msgstr "Bearbeitungshinweis"
+
+msgid ""
+"Editing requires permission for the original. Contact the website "
+"administrator."
+msgstr ""
+"Zum Bearbeiten werden Rechte am Original benötigt. Bitte die Website-"
+"Betreuung kontaktieren."
+
+msgid "Effect of a change"
+msgstr "Wirkung einer Änderung"
+
+msgid "Elementor Free and Pro"
+msgstr "Elementor Free und Pro"
+
+msgid "Elementor page"
+msgstr "Elementor-Seite"
+
+msgid "Elementor post"
+msgstr "Elementor-Beitrag"
+
+msgid "Elementor template"
+msgstr "Elementor-Template"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid ""
+"Enter a full HTTP or HTTPS example address without embedded credentials."
+msgstr ""
+"Gib eine vollständige HTTP- oder HTTPS-Adresse für die Beispielseite ohne "
+"eingebettete Zugangsdaten an."
+
+msgid "Enter a menu name and choose an available WordPress icon."
+msgstr "Gib einen Menünamen an und wähle ein verfügbares WordPress-Icon."
+
+msgid "Example page address (optional)"
+msgstr "Adresse einer Beispielseite (optional)"
+
+msgid "Existing menu"
+msgstr "Vorhandenes Menü"
+
+msgid "Explain the effect"
+msgstr "Wirkung erklären"
+
+msgid ""
+"Filtering keeps your selected original. Select a result to change the "
+"assignment."
+msgstr ""
+"Beim Filtern bleibt dein ausgewähltes Original erhalten. Wähle einen "
+"Treffer, um die Zuordnung zu ändern."
+
+msgid "Find"
+msgstr "Suchen"
+
+msgid "Find an original"
+msgstr "Original finden"
+
+msgid "Find content"
+msgstr "Inhalte finden"
+
+msgid "Find the right building block and understand what your change affects."
+msgstr ""
+"Finde den passenden Website-Baustein und verstehe die Wirkung deiner "
+"Änderung."
+
+msgid ""
+"Find the right website building block, understand the effect of a change, "
+"and open its original editor."
+msgstr ""
+"Finde den passenden Website-Baustein, verstehe die Wirkung einer Änderung "
+"und öffne seinen Original-Editor."
+
+msgid "Fixed:"
+msgstr "Behoben:"
+
+msgid ""
+"For example: phone, contact, address. These terms help readers find this "
+"task."
+msgstr ""
+"Zum Beispiel: Telefon, Kontakt, Adresse. Diese Begriffe helfen Lesern, die "
+"Aufgabe zu finden."
+
+msgid "GeneratePress Elements"
+msgstr "GeneratePress-Elements"
+
+msgid "GeneratePress element"
+msgstr "GeneratePress-Element"
+
+msgid "Get help"
+msgstr "Hilfe erhalten"
+
+msgid "Get support"
+msgstr "Unterstützung anfragen"
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr "Der GitHub-Release enthält die Plugin-Hauptdatei nicht."
+
+msgid ""
+"Grant read access deliberately. This does not grant editing rights for "
+"originals. Administrators can always manage this guide."
+msgstr ""
+"Vergib den Lesezugriff bewusst. Dadurch werden keine Bearbeitungsrechte für "
+"Originale erteilt. Administratoren können diesen Guide immer verwalten."
+
+msgid "Guide access"
+msgstr "Guide-Zugriff"
+
+msgid ""
+"Guide copied as a draft and hidden from readers. Review it before sharing."
+msgstr ""
+"Guide als Entwurf kopiert und für Leser ausgeblendet. Prüfe ihn vor der "
+"Freigabe."
+
+msgid "Guide entry"
+msgstr "Guide-Eintrag"
+
+msgid "Guide entry not found."
+msgstr "Guide-Eintrag nicht gefunden."
+
+msgid "Guide views"
+msgstr "Guide-Ansichten"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "Hidden from readers"
+msgstr "Für Leser ausgeblendet"
+
+msgid "How to find content"
+msgstr "So findest du Inhalte"
+
+msgid "Icon preview"
+msgstr "Icon-Vorschau"
+
+msgid "Improved:"
+msgstr "Verbessert:"
+
+msgid "In development"
+msgstr "In Entwicklung"
+
+msgid "In trash"
+msgstr "Im Papierkorb"
+
+msgid ""
+"Individual website pages and articles. Elementor-built pages open in "
+"Elementor when its runtime and your editing permissions are available."
+msgstr ""
+"Einzelne Website-Seiten und Artikel. Mit Elementor erstellte Seiten öffnen "
+"sich in Elementor, wenn die Integration verfügbar ist und du "
+"Bearbeitungsrechte hast."
+
+msgid "Information"
+msgstr "Information"
+
+msgid ""
+"Instructions are under Find content. Administrators can also open related "
+"guides from the Content guide panel in supported WordPress editors. "
+"Inserting a pattern into a post does not show an additional guide notice for "
+"the inserted copy."
+msgstr ""
+"Die Anleitungen findest du unter Inhalte finden. Administratoren können "
+"zugehörige Guides auch über den Bereich Content Guide in unterstützten "
+"WordPress-Editoren öffnen. Beim Einfügen eines Patterns in einen Beitrag "
+"erscheint kein zusätzlicher Guide-Hinweis für die eingefügte Kopie."
+
+msgid "Invalid GitHub repository URL."
+msgstr "Ungültige GitHub-Repository-URL."
+
+msgid "Invalid authentication provider."
+msgstr "Ungültiger Authentifizierungsanbieter."
+
+msgid ""
+"It may be hidden, removed or excluded by your filters. Ask your website "
+"support contact if you need this guide."
+msgstr ""
+"Er ist möglicherweise ausgeblendet, entfernt oder durch deine Filter "
+"ausgeschlossen. Frage deinen Ansprechpartner für die Website, wenn du diesen "
+"Guide benötigst."
+
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+msgid ""
+"Leave empty to use the translated default name. A custom name applies to "
+"this website for all readers."
+msgstr ""
+"Lass das Feld leer, um den übersetzten Standardnamen zu verwenden. Ein "
+"eigener Name gilt auf dieser Website für alle Leser."
+
+msgid "Lightbulb"
+msgstr "Glühbirne"
+
+msgid "Link copied."
+msgstr "Link kopiert."
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Location"
+msgstr "Position"
+
+msgid "Maintenance tasks"
+msgstr "Pflegeaufgaben"
+
+msgid "Manage guide"
+msgstr "Guide pflegen"
+
+msgid "Menu appearance saved."
+msgstr "Menüdarstellung gespeichert."
+
+msgid "Menu icon"
+msgstr "Menü-Icon"
+
+msgid "Menu name"
+msgstr "Menüname"
+
+msgid "Misc:"
+msgstr "Sonstiges:"
+
+msgid "Move guide entry to trash"
+msgstr "Guide-Eintrag in den Papierkorb verschieben"
+
+msgid "Name for readers"
+msgstr "Name für die Redaktion"
+
+msgid "Name or team"
+msgstr "Name oder Team"
+
+msgid "Need support?"
+msgstr "Du brauchst Unterstützung?"
+
+msgid "Needs review: original unavailable"
+msgstr "Prüfbedarf: Original nicht verfügbar"
+
+msgid "New:"
+msgstr "Neu:"
+
+msgid "No guide entries found."
+msgstr "Keine Guide-Einträge gefunden."
+
+msgid "No matching originals. Change the search or filters."
+msgstr "Keine passenden Originale. Ändere den Suchbegriff oder die Filter."
+
+msgid ""
+"One step per line. Example: Select the contact block, replace the phone "
+"number, save, then check the website."
+msgstr ""
+"Ein Schritt pro Zeile. Beispiel: Kontaktblock auswählen, Telefonnummer "
+"ersetzen, speichern und anschließend die Website prüfen."
+
+msgid ""
+"Only items added to the guide and made visible by your website administrator "
+"appear here."
+msgstr ""
+"Hier erscheinen nur Inhalte, die deine Website-Betreuung in den Guide "
+"aufgenommen und für dich freigegeben hat."
+
+msgid ""
+"Only the guide is copied. Review the draft and explicitly enable reader "
+"visibility."
+msgstr ""
+"Nur der Guide wird kopiert. Prüfe den Entwurf und aktiviere die Sichtbarkeit "
+"für Leser ausdrücklich."
+
+msgid "Open book"
+msgstr "Offenes Buch"
+
+msgid "Open the original to make your change."
+msgstr "Öffne das Original, um deine Änderung vorzunehmen."
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Original name"
+msgstr "Originalname"
+
+msgid "Original unavailable"
+msgstr "Original nicht verfügbar"
+
+msgid ""
+"Original unavailable. Ask the website administrator to check this entry."
+msgstr ""
+"Original nicht verfügbar. Bitte die Website-Betreuung bitten, diesen Eintrag "
+"zu prüfen."
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone (optional)"
+msgstr "Telefon (optional)"
+
+msgid "Please check the contact details."
+msgstr "Bitte prüfe die Kontaktangaben."
+
+msgid "Please check the guide fields."
+msgstr "Bitte prüfe die Felder des Guide-Eintrags."
+
+msgid ""
+"Please enter a full HTTP or HTTPS support address without embedded "
+"credentials."
+msgstr ""
+"Bitte gib eine vollständige HTTP- oder HTTPS-Support-Adresse ohne "
+"eingebettete Zugangsdaten ein."
+
+msgid "Please enter a valid email address."
+msgstr "Bitte gib eine gültige E-Mail-Adresse ein."
+
+msgid "Please submit this action using the form."
+msgstr "Bitte führe diese Aktion über das Formular aus."
+
+msgid "Please use a shorter menu name."
+msgstr "Bitte verwende einen kürzeren Menünamen."
+
+msgid "Private mode must be boolean."
+msgstr "Der private Modus muss einen Wahrheitswert haben."
+
+msgid "Provider"
+msgstr "Provider"
+
+msgid "Purpose"
+msgstr "Zweck"
+
+msgid "Read where the building block is used and what your change affects."
+msgstr ""
+"Lies, wo der Baustein verwendet wird und welche Wirkung deine Änderung hat."
+
+msgid "Read-only"
+msgstr "Schreibgeschützt"
+
+msgid ""
+"Reader help with supported content types and an optional support contact."
+msgstr ""
+"Leserhilfe mit unterstützten Inhaltstypen und optionalem Ansprechpartner."
+
+msgid "Registered pattern (read-only)"
+msgstr "Registriertes Pattern (schreibgeschützt)"
+
+msgid "Related guides"
+msgstr "Zugehörige Guides"
+
+msgid "Restore guide entry"
+msgstr "Guide-Eintrag wiederherstellen"
+
+msgid ""
+"Reusable building blocks for the block editor. User-created patterns can "
+"have their own editor; registered theme or plugin patterns may be read-only. "
+"Non-synced copies in posts are edited separately."
+msgstr ""
+"Wiederverwendbare Bausteine für den Block-Editor. Selbst angelegte Patterns "
+"können einen eigenen Editor haben; registrierte Theme- oder Plugin-Patterns "
+"können schreibgeschützt sein. Nicht synchronisierte Kopien im Beitrag werden "
+"separat bearbeitet."
+
+msgid "Save access"
+msgstr "Zugriff speichern"
+
+msgid "Save guide entry"
+msgstr "Guide-Eintrag speichern"
+
+msgid "Save menu appearance"
+msgstr "Menüdarstellung speichern"
+
+msgid "Save support contact"
+msgstr "Ansprechpartner speichern"
+
+msgid ""
+"Saved templates and Elementor pages or posts. Active Pro document types also "
+"support Theme Builder templates, global widgets, popups and loop items. "
+"Inserted copies and shared template embeddings behave differently; read the "
+"usage notes. Dynamic content may need to be edited in its underlying post."
+msgstr ""
+"Gespeicherte Templates sowie Elementor-Seiten und -Beiträge. Bei aktiven Pro-"
+"Inhaltstypen werden auch Theme-Builder-Templates, globale Widgets, Popups "
+"und Loop-Vorlagen unterstützt. Eingefügte Kopien und gemeinsam eingebundene "
+"Templates verhalten sich unterschiedlich; lies die Verwendungshinweise. "
+"Dynamische Inhalte müssen gegebenenfalls im zugrunde liegenden Beitrag "
+"geändert werden."
+
+msgid "Search in Find content for your task, such as changing contact details."
+msgstr ""
+"Suche unter Inhalte finden nach deiner Aufgabe, etwa Kontaktangaben ändern."
+
+msgid "Search originals"
+msgstr "Originale durchsuchen"
+
+msgid ""
+"Searchable original selection, related guide links, example pages, ordered "
+"editing steps, copyable direct links and duplication as invisible drafts."
+msgstr ""
+"Durchsuchbare Originalauswahl, Links zu zugehörigen Guides, Beispielseiten, "
+"geordnete Arbeitsschritte, kopierbare Direktlinks und Duplizieren als "
+"ausgeblendete Entwürfe."
+
+msgid "See the release on GitHub."
+msgstr "Release auf GitHub ansehen."
+
+msgid "Select and copy the link above."
+msgstr "Markiere und kopiere den Link oben."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid ""
+"Shared areas such as headers and footers, including parts supplied by the "
+"active theme. Editing takes place in the Site Editor and can affect multiple "
+"pages."
+msgstr ""
+"Gemeinsame Bereiche wie Kopfbereich und Footer, einschließlich der Teile aus "
+"dem aktiven Theme. Die Bearbeitung erfolgt im Website-Editor und kann "
+"mehrere Seiten betreffen."
+
+msgid "Short support note"
+msgstr "Kurzer Unterstützungshinweis"
+
+msgid "Show all guide entries"
+msgstr "Alle Guide-Einträge anzeigen"
+
+msgid "Show support contact to readers"
+msgstr "Ansprechpartner für Leser anzeigen"
+
+msgid "Source"
+msgstr "Quelle"
+
+msgid "Source available on this website"
+msgstr "Quelle auf dieser Website verfügbar"
+
+msgid "Source not available on this website"
+msgstr "Quelle auf dieser Website nicht verfügbar"
+
+msgid "Step by step"
+msgstr "Schritt für Schritt"
+
+msgid "Support contact"
+msgstr "Ansprechpartner"
+
+msgid "Support contact saved."
+msgstr "Ansprechpartner gespeichert."
+
+msgid "Support link"
+msgstr "Support-Link"
+
+msgid "Templates for areas such as the header, footer or page content."
+msgstr "Vorlagen für Bereiche wie Kopfbereich, Footer oder Seiteninhalte."
+
+msgid ""
+"The active theme does not support this menu editor. Ask the website "
+"administrator to check the theme and menu type."
+msgstr ""
+"Das aktive Theme unterstützt diesen Menü-Editor nicht. Bitte die Website-"
+"Betreuung bitten, Theme und Menütyp zu prüfen."
+
+msgid ""
+"The effect of a change has not been clearly described yet. Ask your website "
+"support contact before making the change."
+msgstr ""
+"Die Wirkung einer Änderung ist noch nicht eindeutig beschrieben. Frage vor "
+"der Änderung deinen Ansprechpartner für die Website."
+
+msgid ""
+"The guide explains the building block. Edit original opens its actual "
+"editor, provided you already have permission."
+msgstr ""
+"Der Guide erklärt dir den Baustein. Original bearbeiten öffnet seinen "
+"eigentlichen Editor, sofern du bereits die nötigen Rechte hast."
+
+msgid ""
+"The guide is a selected overview. The item may not have been added or made "
+"visible yet. Try a task or everyday term, then ask your website support "
+"contact."
+msgstr ""
+"Der Guide enthält eine ausgewählte Übersicht. Der Inhalt wurde "
+"möglicherweise noch nicht aufgenommen oder freigegeben. Suche nach einer "
+"Aufgabe oder einem Alltagsbegriff und frage bei Bedarf deinen "
+"Ansprechpartner für die Website."
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+"Das Plugin muss in einem Ordner mit seinem festen Slug installiert sein."
+
+msgid ""
+"The private update could not be authorized. Check the repository credentials "
+"and refresh updates."
+msgstr ""
+"Das private Update konnte nicht autorisiert werden. Prüfe die Repository-"
+"Zugangsdaten und aktualisiere die Updates."
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+"Der Download des privaten Updates ist fehlgeschlagen. Prüfe die Zugangsdaten "
+"und versuche es erneut."
+
+msgid ""
+"The recipient needs guide read access. Copying a link does not grant access."
+msgstr ""
+"Der Empfänger benötigt Lesezugriff auf den Guide. Das Kopieren eines Links "
+"erteilt keinen Zugriff."
+
+msgid "The update package does not match this plugin or its requirements."
+msgstr ""
+"Das Update-Paket entspricht nicht diesem Plugin oder seinen Voraussetzungen."
+
+msgid ""
+"These details are visible to everyone with guide read access. Leave them "
+"empty or disable the box to hide them."
+msgstr ""
+"Diese Angaben sehen alle Personen mit Guide-Lesezugriff. Lass die Felder "
+"leer oder deaktiviere den Kasten, um sie auszublenden."
+
+msgid ""
+"This building block is used in multiple places. Read the effect and usage "
+"notes before editing."
+msgstr ""
+"Dieser Baustein wird an mehreren Stellen verwendet. Lies vor der Bearbeitung "
+"die Hinweise zu Wirkung und Verwendung."
+
+msgid "This guide is not available in the current view."
+msgstr "Dieser Guide ist in der aktuellen Ansicht nicht verfügbar."
+
+msgid ""
+"This registered pattern is read-only. Contact the website administrator."
+msgstr ""
+"Dieses registrierte Pattern ist schreibgeschützt. Bitte die Website-"
+"Betreuung kontaktieren."
+
+msgid "Three simple steps"
+msgstr "Drei einfache Schritte"
+
+msgid "Tools"
+msgstr "Werkzeuge"
+
+msgid ""
+"Try a shorter task or everyday term, or choose All areas. Your website "
+"administrator may still need to add or release the item."
+msgstr ""
+"Suche nach einer kürzeren Aufgabe oder einem Alltagsbegriff oder wähle Alle "
+"Bereiche. Möglicherweise muss deine Website-Betreuung den Eintrag noch "
+"anlegen oder freigeben."
+
+msgid "Usage and effects are described manually by the website administrator."
+msgstr ""
+"Verwendung und Wirkung werden von der Website-Betreuung manuell beschrieben."
+
+msgid ""
+"Use a full HTTP or HTTPS address of a checked example page. Public pages and "
+"posts use their own address when this field is empty."
+msgstr ""
+"Gib die vollständige HTTP- oder HTTPS-Adresse einer geprüften Beispielseite "
+"an. Öffentliche Seiten und Beiträge verwenden ihre eigene Adresse, wenn das "
+"Feld leer bleibt."
+
+msgid "Use a task name, such as Change the phone number in the footer."
+msgstr "Benenne die Aufgabe, zum Beispiel Telefonnummer im Footer ändern."
+
+msgid "View website"
+msgstr "Website ansehen"
+
+msgid "Visible to readers"
+msgstr "Für Leser sichtbar"
+
+msgid "Website area"
+msgstr "Website-Bereich"
+
+msgid "What does Check usage mean?"
+msgstr "Was bedeutet Verwendung prüfen?"
+
+msgid "What kinds of content can you find here?"
+msgstr "Welche Inhalte findest du hier?"
+
+msgid "What would you like to change?"
+msgstr "Was möchtest du ändern?"
+
+msgid "Where it is used"
+msgstr "Verwendung"
+
+msgid "Why can I not find a content item?"
+msgstr "Warum finde ich einen Inhalt nicht?"
+
+msgid "Why is Edit original missing?"
+msgstr "Warum fehlt Original bearbeiten?"
+
+msgid "WordPress block navigation"
+msgstr "WordPress-Block-Navigation"
+
+msgid "WordPress classic menu"
+msgstr "Klassisches WordPress-Menü"
+
+msgid "WordPress navigation and menus"
+msgstr "WordPress-Navigation und -Menüs"
+
+msgid "WordPress page"
+msgstr "WordPress-Seite"
+
+msgid "WordPress pages and posts"
+msgstr "WordPress-Seiten und -Beiträge"
+
+msgid ""
+"WordPress pages, posts, template parts, block navigation, classic menus and "
+"active Elementor Free/Pro document types."
+msgstr ""
+"WordPress-Seiten, Beiträge, Template-Teile, Block-Navigation, klassische "
+"Menüs und aktive Elementor-Free-/Pro-Inhaltstypen."
+
+msgid "WordPress pattern"
+msgstr "WordPress-Pattern"
+
+msgid "WordPress patterns"
+msgstr "WordPress-Patterns"
+
+msgid "WordPress post"
+msgstr "WordPress-Beitrag"
+
+msgid "WordPress template part"
+msgstr "WordPress-Template-Teil"
+
+msgid "WordPress template parts"
+msgstr "WordPress-Template-Teile"
+
+msgid "You cannot manage this guide."
+msgstr "Du darfst diesen Guide nicht verwalten."
+
+msgid "You cannot read this guide."
+msgstr "Du darfst diesen Guide nicht lesen."
+
+msgid ""
+"You do not need a guide for every content item. Start with frequent "
+"maintenance tasks, common stumbling blocks and shared templates whose "
+"changes affect several places."
+msgstr ""
+"Nicht jeder Inhalt braucht einen Guide. Beginne mit häufigen Pflegeaufgaben, "
+"typischen Stolpersteinen und gemeinsam verwendeten Vorlagen, deren "
+"Änderungen mehrere Stellen betreffen."
+
+msgid ""
+"You may lack editing permission, the original may be unavailable, or the "
+"building block may be read-only. Use the support details below if they are "
+"provided."
+msgstr ""
+"Dir fehlen möglicherweise die Bearbeitungsrechte, das Original ist nicht "
+"verfügbar oder der Baustein ist schreibgeschützt. Nutze die Kontaktangaben "
+"unten, falls sie hinterlegt sind."
+
+msgid "%s is installed but inactive. Activate it first."
+msgstr "%s ist installiert, aber inaktiv. Bitte zuerst aktivieren."
+
+msgid "%s is missing. Install and activate it first."
+msgstr "%s fehlt. Bitte zuerst installieren und aktivieren."
+
+msgid "%s must be network activated first."
+msgstr "%s muss zuerst netzwerkweit aktiviert werden."
+
+msgid "%s supports activation per site only."
+msgstr "%s unterstützt nur die Aktivierung je Website."
+
+msgid "Activate"
+msgstr "Aktivieren"
+
+msgid ""
+"Activate Bricks QuickNav per site after selecting the Bricks parent or child "
+"theme."
+msgstr ""
+"Bricks QuickNav bitte je Website aktivieren, nachdem das Bricks-Theme oder "
+"ein Child-Theme ausgewählt wurde."
+
+msgid "Activating…"
+msgstr "Wird aktiviert…"
+
+msgid "Admin"
+msgstr "Administration"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Already active"
+msgstr "Bereits aktiv"
+
+msgid "Another action for this plugin is running. Please wait."
+msgstr "Für dieses Plugin läuft bereits eine Aktion. Bitte warten."
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "April"
+msgstr "April"
+
+msgid "Archive contains too many files."
+msgstr "Das Archiv enthält zu viele Dateien."
+
+msgid "Archive symlinks are not permitted."
+msgstr "Symbolische Verknüpfungen sind im Archiv nicht erlaubt."
+
+msgid "As of "
+msgstr "Stand: "
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "August"
+msgstr "August"
+
+msgid "Back to deckerweb"
+msgstr "Zurück zu deckerweb"
+
+msgid "Builder"
+msgstr "Builder"
+
+msgid "Cannot create temporary file."
+msgstr "Temporäre Datei konnte nicht erstellt werden."
+
+msgid "Cannot create verified archive."
+msgstr "Geprüftes Archiv konnte nicht erstellt werden."
+
+msgid "Cannot finalize archive."
+msgstr "Archiv konnte nicht abgeschlossen werden."
+
+msgid "Cannot normalize archive."
+msgstr "Archiv konnte nicht aufbereitet werden."
+
+msgid "Cannot read archive entry."
+msgstr "Archiveintrag konnte nicht gelesen werden."
+
+msgid "Catalog URL"
+msgstr "Katalog-URL"
+
+msgid "Check status"
+msgstr "Status prüfen"
+
+msgid "Checking status…"
+msgstr "Status wird geprüft…"
+
+msgid "Commerce"
+msgstr "Commerce"
+
+msgid "Compatible additions only"
+msgstr "Nur passende Ergänzungen"
+
+msgid "Content"
+msgstr "Inhalte"
+
+msgid "Dec"
+msgstr "Dez"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+"Library-Einstellungen beim Entfernen des letzten Host-Plugins ebenfalls "
+"löschen"
+
+msgid "Details & requirements"
+msgstr "Details & Voraussetzungen"
+
+msgid "Discover more plugins by deckerweb"
+msgstr "Weitere Plugins von deckerweb entdecken"
+
+msgid "Dismiss permanently"
+msgstr "Dauerhaft schließen"
+
+msgid "Done. The plugin is active."
+msgstr "Erledigt. Das Plugin ist aktiv."
+
+msgid "Enter a catalog URL first."
+msgstr "Bitte zuerst eine Katalog-URL eintragen."
+
+msgid "Expanded archive is too large."
+msgstr "Das entpackte Archiv ist zu groß."
+
+msgid "F j, Y"
+msgstr "j. F Y"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "Filesystem credentials are required."
+msgstr "Zugangsdaten für das Dateisystem werden benötigt."
+
+msgid "Filter"
+msgstr "Filtern"
+
+msgid "Fits my installation"
+msgstr "Passt zu meiner Installation"
+
+msgid "Fixed"
+msgstr "Behoben"
+
+msgid "Fri"
+msgstr "Fr"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "GitHub Stars"
+msgstr "GitHub-Sterne"
+
+msgid "Hide catalog"
+msgstr "Katalog ausblenden"
+
+msgid "Improved"
+msgstr "Verbessert"
+
+msgid "Install and activate this plugin in the network admin."
+msgstr "Dieses Plugin bitte im Netzwerk-Admin installieren und aktivieren."
+
+msgid "Install deckerweb plugin"
+msgstr "deckerweb-Plugin installieren"
+
+msgid "Install now"
+msgstr "Jetzt installieren"
+
+msgid "Installation cancelled."
+msgstr "Installation abgebrochen."
+
+msgid "Installation failed."
+msgstr "Installation fehlgeschlagen."
+
+msgid "Installed"
+msgstr "Installiert"
+
+msgid "Installed: "
+msgstr "Installiert: "
+
+msgid "Installing…"
+msgstr "Wird installiert…"
+
+msgid "Invalid ZIP archive."
+msgstr "Ungültiges ZIP-Archiv."
+
+msgid "Invalid approval flag."
+msgstr "Ungültige Freigabeangabe."
+
+msgid "Invalid catalog field: "
+msgstr "Ungültiges Katalogfeld: "
+
+msgid "Invalid catalog revision."
+msgstr "Ungültiger Katalogstand."
+
+msgid "Invalid catalog schema."
+msgstr "Ungültiges Katalogformat."
+
+msgid "Invalid catalog timestamp."
+msgstr "Ungültiger Katalogzeitpunkt."
+
+msgid "Invalid dependencies."
+msgstr "Ungültige Abhängigkeiten."
+
+msgid "Invalid dependency URL."
+msgstr "Ungültige URL einer Abhängigkeit."
+
+msgid "Invalid dependency metadata."
+msgstr "Ungültige Angaben zu Abhängigkeiten."
+
+msgid "Invalid display field."
+msgstr "Ungültiges Anzeigefeld."
+
+msgid "Invalid icon color."
+msgstr "Ungültige Icon-Farbe."
+
+msgid "Invalid icon label."
+msgstr "Ungültiges Icon-Kürzel."
+
+msgid "Invalid identity or release metadata."
+msgstr "Ungültige Plugin- oder Release-Angaben."
+
+msgid "Invalid local icon."
+msgstr "Ungültiges lokales Icon."
+
+msgid "Invalid network policy."
+msgstr "Ungültige Netzwerkregel."
+
+msgid "Invalid network requirement."
+msgstr "Ungültige Netzwerkanforderung."
+
+msgid "Invalid platform version."
+msgstr "Ungültige Plattformversion."
+
+msgid "Invalid plugin series."
+msgstr "Ungültige Plugin-Serie."
+
+msgid "Invalid star count."
+msgstr "Ungültige Anzahl der GitHub-Sterne."
+
+msgid "Invalid stars date."
+msgstr "Ungültiges Datum der GitHub-Sterne."
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "Library"
+msgstr "Library"
+
+msgid "Library changelog"
+msgstr "Library-Änderungsverlauf"
+
+msgid "Library settings"
+msgstr "Library-Einstellungen"
+
+msgid "Library settings saved."
+msgstr "Library-Einstellungen gespeichert."
+
+msgid "Manage Content"
+msgstr "Inhalte verwalten"
+
+msgid "Manage installed plugins"
+msgstr "Installierte Plugins verwalten"
+
+msgid "Mar"
+msgstr "Mär"
+
+msgid "March"
+msgstr "März"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "Misc"
+msgstr "Sonstiges"
+
+msgid "Missing display text."
+msgstr "Anzeigetext fehlt."
+
+msgid "Missing plugin header."
+msgstr "Plugin-Header fehlt."
+
+msgid "Mon"
+msgstr "Mo"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "More by deckerweb"
+msgstr "Mehr von deckerweb"
+
+msgid "Multisite"
+msgstr "Multisite"
+
+msgid "Network activate"
+msgstr "Netzwerkweit aktivieren"
+
+msgid "Network permission denied."
+msgstr "Keine Berechtigung für das Netzwerk."
+
+msgid "New"
+msgstr "Neu"
+
+msgid "No approved plugins match this selection."
+msgstr "Keine freigegebenen Plugins passen zu dieser Auswahl."
+
+msgid "Not installed. You can try again."
+msgstr "Nicht installiert. Ein erneuter Versuch ist möglich."
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "November"
+msgstr "November"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
+msgstr ""
+"Standardmäßig ausgeschaltet. Gilt nur, wenn kein weiterer Host installiert "
+"ist, auch kein deaktivierter. Entfernt Library-Einstellungen, "
+"Installationszuordnung und den Status des Einführungshinweises. Installierte "
+"Plugins, deren Inhalte und Einstellungen anderer Plugins bleiben erhalten. "
+"Netzwerkdaten werden gemeinsam von den Websites genutzt."
+
+msgid "Online catalog"
+msgstr "Online-Katalog"
+
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+"Nur HTTPS auf raw.githubusercontent.com/deckerweb. Der Server sieht die "
+"anfragende IP-Adresse. Beim Installieren eines Releases wird GitHub "
+"kontaktiert."
+
+msgid "Only approved releases"
+msgstr "Nur freigegebene Releases"
+
+msgid "Open catalog"
+msgstr "Katalog öffnen"
+
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+"Optional. Der mitgelieferte Katalog funktioniert sofort. Katalogabfragen "
+"werden 24 Stunden zwischengespeichert. Keine Website-URL, Plugin-Liste oder "
+"Nutzungsdaten werden übertragen."
+
+msgid "PHP ZIP support is required."
+msgstr "PHP-ZIP-Unterstützung wird benötigt."
+
+msgid "POST required."
+msgstr "Eine POST-Anfrage ist erforderlich."
+
+msgid "Permission denied."
+msgstr "Keine Berechtigung."
+
+msgid "Planned: "
+msgstr "Geplant: "
+
+msgid "Plugin identity or version does not match the catalog."
+msgstr "Plugin oder Version stimmt nicht mit dem Katalog überein."
+
+msgid "Plugin is not installed."
+msgstr "Das Plugin ist nicht installiert."
+
+msgid "Plugin series"
+msgstr "Plugin-Serien"
+
+msgid "Product website"
+msgstr "Produktwebsite"
+
+msgid "Refresh catalog"
+msgstr "Katalog aktualisieren"
+
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+"Release 1.0.0 wird vorbereitet. Die Installation ist nach Prüfung des Pakets "
+"verfügbar."
+
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+"Vor der Installation wird die Release-Prüfsumme geprüft. Die Aktivierung "
+"erfolgt separat."
+
+msgid "Release in preparation"
+msgstr "Release in Vorbereitung"
+
+msgid "Release must contain exactly the approved plugin directory."
+msgstr "Das Release muss genau das freigegebene Plugin-Verzeichnis enthalten."
+
+msgid "Repository & documentation"
+msgstr "Repository & Dokumentation"
+
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+"Die gezeigten Voraussetzungen sind bis zur Prüfung des stabilen Releases "
+"vorläufig."
+
+msgid "Requires PHP %s or newer."
+msgstr "Benötigt PHP %s oder neuer."
+
+msgid "Requires WordPress %s or newer."
+msgstr "Benötigt WordPress %s oder neuer."
+
+msgid "Requires a WordPress Multisite network."
+msgstr "Benötigt ein WordPress-Multisite-Netzwerk."
+
+msgid "Reset filters"
+msgstr "Filter zurücksetzen"
+
+msgid "Retrieve approved catalog updates online"
+msgstr "Katalogfreigaben online aktualisieren"
+
+msgid "Sat"
+msgstr "Sa"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+msgid "Scripts"
+msgstr "Scripte"
+
+msgid "Search this catalog"
+msgstr "Diesen Katalog durchsuchen"
+
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr "Von deckerweb ausgewählt · Installation aus GitHub-Releases"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "September"
+msgstr "September"
+
+msgid "Shop"
+msgstr "Shop"
+
+msgid "Show deckerweb under Add Plugins"
+msgstr "deckerweb unter „Plugins hinzufügen“ anzeigen"
+
+msgid ""
+"Shows plugins whose platform and dependency requirements are met in this "
+"site or network. Without this filter, plugins with missing requirements "
+"remain visible."
+msgstr ""
+"Zeigt Plugins, deren Plattform- und Abhängigkeitsanforderungen auf dieser "
+"Website oder im Netzwerk erfüllt sind. Ohne diesen Filter bleiben Plugins "
+"mit fehlenden Voraussetzungen sichtbar."
+
+msgid "Small plugins. Practical improvements."
+msgstr "Kleine Plugins. Konkrete Verbesserungen."
+
+msgid "Source: GitHub"
+msgstr "Quelle: GitHub"
+
+msgid "Sun"
+msgstr "So"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "The GitHub release could not be downloaded."
+msgstr "Das GitHub-Release konnte nicht heruntergeladen werden."
+
+msgid "The action is still running. Check its status again."
+msgstr "Die Aktion läuft noch. Bitte den Status erneut prüfen."
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+"Das freigegebene Release hat sich geändert. Bitte zuerst die Updates "
+"aktualisieren."
+
+msgid "The approved release could not be verified."
+msgstr "Der freigegebene Release konnte nicht geprüft werden."
+
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr "Die Katalog-URL ist keine erlaubte eigene HTTPS-Quelle."
+
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+"Der Katalog konnte nicht geprüft werden. Bitte später erneut versuchen."
+
+msgid "The catalog is disabled."
+msgstr "Der Katalog ist deaktiviert."
+
+msgid "The catalog is hidden."
+msgstr "Der Katalog ist ausgeblendet."
+
+msgid ""
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
+msgstr ""
+"Der Online-Katalog ist nicht erreichbar. Angezeigt wird der gespeicherte "
+"oder mitgelieferte Katalog; vor der Installation wird die Online-Freigabe "
+"erneut geprüft."
+
+msgid "The online catalog source is not trusted."
+msgstr "Die Online-Katalogquelle ist nicht vertrauenswürdig."
+
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+"Die Prüfsumme des Releases stimmt nicht überein. Installation gestoppt."
+
+msgid ""
+"The request could not be completed. Check the plugin status before trying "
+"again."
+msgstr ""
+"Die Anfrage konnte nicht abgeschlossen werden. Vor einem erneuten Versuch "
+"den Plugin-Status prüfen."
+
+msgid "The requirements below describe the offered release."
+msgstr ""
+"Die folgenden Voraussetzungen beziehen sich auf den angebotenen Release."
+
+msgid "This catalog requires a newer Library."
+msgstr "Dieser Katalog benötigt eine neuere Library."
+
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+"Dieses Plugin-Verzeichnis existiert bereits. Bitte das installierte Plugin "
+"verwenden; es wird nicht überschrieben."
+
+msgid "This release is no longer approved."
+msgstr "Dieses Release ist nicht mehr freigegeben."
+
+msgid "This release is not approved."
+msgstr "Dieses Release ist nicht freigegeben."
+
+msgid "Thu"
+msgstr "Do"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Tue"
+msgstr "Di"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Unsafe archive path."
+msgstr "Unsicherer Archivpfad."
+
+msgid "Untrusted release URL."
+msgstr "Nicht vertrauenswürdige Release-URL."
+
+msgid "Update %1$s to version %2$s or newer."
+msgstr "%1$s bitte auf Version %2$s oder neuer aktualisieren."
+
+msgid "View plugins"
+msgstr "Plugins ansehen"
+
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+msgid "Wed"
+msgstr "Mi"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
+msgstr ""
+"Du nutzt bereits ein Plugin von mir. Ausgewählte Ergänzungen findest du im "
+"deckerweb-Tab."

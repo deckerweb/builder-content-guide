@@ -1,0 +1,1283 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-08 12:00+0200\n"
+"Last-Translator: David Decker\n"
+"Language-Team: German\n"
+"Project-Id-Version: Builder Content Guide 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%s (copy)"
+msgstr ""
+
+msgid "(opens in a new tab)"
+msgstr ""
+
+msgid ""
+"Adapt the menu to this website, for example Instructions or Website help. "
+"Plugin identity and guide permissions stay the same."
+msgstr ""
+
+msgid "Add guide entry"
+msgstr ""
+
+msgid "Additional search terms"
+msgstr ""
+
+msgid ""
+"Additional search terms, help after unsuccessful searches and reminders "
+"before editing shared building blocks."
+msgstr ""
+
+msgid ""
+"Additional website building blocks, such as a notice below articles. "
+"Requires an active Elements integration."
+msgstr ""
+
+msgid "Admin menu"
+msgstr ""
+
+msgid "All areas"
+msgstr ""
+
+msgid "All content types"
+msgstr ""
+
+msgid "All providers"
+msgstr ""
+
+msgid ""
+"An available source does not mean a guide entry already exists or that you "
+"can edit its originals."
+msgstr ""
+
+msgid ""
+"Block navigation opens in the Site Editor; classic menus open in the menu "
+"editor. Changing a menu label does not change the linked page title or "
+"content. Check all places where the menu is used. Block navigation editing "
+"requires a block theme; classic menu editing requires theme menu or widget "
+"support."
+msgstr ""
+
+msgid "Book"
+msgstr ""
+
+msgid "Bricks template"
+msgstr ""
+
+msgid "Bricks templates"
+msgstr ""
+
+msgid ""
+"Builder Content Guide updates are unavailable. Check the shared updater "
+"integration."
+msgstr ""
+
+msgid "Change affects multiple places"
+msgstr ""
+
+msgid "Change affects only this place"
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Check usage"
+msgstr ""
+
+msgid ""
+"Check usage before editing. If unsure, ask your website support contact."
+msgstr ""
+
+msgid ""
+"Choose Edit original if you have editing permission. You will work in the "
+"original editor."
+msgstr ""
+
+msgid "Choose an original"
+msgstr ""
+
+msgid "Choose an original and provide a name, purpose and website area."
+msgstr ""
+
+msgid "Clipboard"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Common questions"
+msgstr ""
+
+msgid "Content guide"
+msgstr ""
+
+msgid "Content type"
+msgstr ""
+
+msgid "Copy guide link"
+msgstr ""
+
+msgid "Could not access the update filesystem."
+msgstr ""
+
+msgid "Could not create the update download file."
+msgstr ""
+
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+msgid ""
+"Curated content guide for WordPress patterns, Bricks templates and "
+"GeneratePress elements."
+msgstr ""
+
+msgid "Customizable site admin menu name and bundled WordPress icon."
+msgstr ""
+
+msgid ""
+"Direct admin submenus for finding content, managing the guide and adding "
+"entries."
+msgstr ""
+
+msgid "Direct link to this guide"
+msgstr ""
+
+msgid "Do I edit content inside the guide?"
+msgstr ""
+
+msgid "Does the guide appear in the post editor?"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Duplicate guide as draft"
+msgstr ""
+
+msgid "Edit guide entry"
+msgstr ""
+
+msgid "Edit original"
+msgstr ""
+
+msgid "Editing guidance"
+msgstr ""
+
+msgid ""
+"Editing requires permission for the original. Contact the website "
+"administrator."
+msgstr ""
+
+msgid "Effect of a change"
+msgstr ""
+
+msgid "Elementor Free and Pro"
+msgstr ""
+
+msgid "Elementor page"
+msgstr ""
+
+msgid "Elementor post"
+msgstr ""
+
+msgid "Elementor template"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid ""
+"Enter a full HTTP or HTTPS example address without embedded credentials."
+msgstr ""
+
+msgid "Enter a menu name and choose an available WordPress icon."
+msgstr ""
+
+msgid "Example page address (optional)"
+msgstr ""
+
+msgid "Existing menu"
+msgstr ""
+
+msgid "Explain the effect"
+msgstr ""
+
+msgid ""
+"Filtering keeps your selected original. Select a result to change the "
+"assignment."
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "Find an original"
+msgstr ""
+
+msgid "Find content"
+msgstr ""
+
+msgid "Find the right building block and understand what your change affects."
+msgstr ""
+
+msgid ""
+"Find the right website building block, understand the effect of a change, "
+"and open its original editor."
+msgstr ""
+
+msgid "Fixed:"
+msgstr ""
+
+msgid ""
+"For example: phone, contact, address. These terms help readers find this "
+"task."
+msgstr ""
+
+msgid "GeneratePress Elements"
+msgstr ""
+
+msgid "GeneratePress element"
+msgstr ""
+
+msgid "Get help"
+msgstr ""
+
+msgid "Get support"
+msgstr ""
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+msgid ""
+"Grant read access deliberately. This does not grant editing rights for "
+"originals. Administrators can always manage this guide."
+msgstr ""
+
+msgid "Guide access"
+msgstr ""
+
+msgid ""
+"Guide copied as a draft and hidden from readers. Review it before sharing."
+msgstr ""
+
+msgid "Guide entry"
+msgstr ""
+
+msgid "Guide entry not found."
+msgstr ""
+
+msgid "Guide views"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hidden from readers"
+msgstr ""
+
+msgid "How to find content"
+msgstr ""
+
+msgid "Icon preview"
+msgstr ""
+
+msgid "Improved:"
+msgstr ""
+
+msgid "In development"
+msgstr ""
+
+msgid "In trash"
+msgstr ""
+
+msgid ""
+"Individual website pages and articles. Elementor-built pages open in "
+"Elementor when its runtime and your editing permissions are available."
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid ""
+"Instructions are under Find content. Administrators can also open related "
+"guides from the Content guide panel in supported WordPress editors. "
+"Inserting a pattern into a post does not show an additional guide notice for "
+"the inserted copy."
+msgstr ""
+
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid authentication provider."
+msgstr ""
+
+msgid ""
+"It may be hidden, removed or excluded by your filters. Ask your website "
+"support contact if you need this guide."
+msgstr ""
+
+msgid "Learn more"
+msgstr ""
+
+msgid ""
+"Leave empty to use the translated default name. A custom name applies to "
+"this website for all readers."
+msgstr ""
+
+msgid "Lightbulb"
+msgstr ""
+
+msgid "Link copied."
+msgstr ""
+
+msgid "List"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Maintenance tasks"
+msgstr ""
+
+msgid "Manage guide"
+msgstr ""
+
+msgid "Menu appearance saved."
+msgstr ""
+
+msgid "Menu icon"
+msgstr ""
+
+msgid "Menu name"
+msgstr ""
+
+msgid "Misc:"
+msgstr ""
+
+msgid "Move guide entry to trash"
+msgstr ""
+
+msgid "Name for readers"
+msgstr ""
+
+msgid "Name or team"
+msgstr ""
+
+msgid "Need support?"
+msgstr ""
+
+msgid "Needs review: original unavailable"
+msgstr ""
+
+msgid "New:"
+msgstr ""
+
+msgid "No guide entries found."
+msgstr ""
+
+msgid "No matching originals. Change the search or filters."
+msgstr ""
+
+msgid ""
+"One step per line. Example: Select the contact block, replace the phone "
+"number, save, then check the website."
+msgstr ""
+
+msgid ""
+"Only items added to the guide and made visible by your website administrator "
+"appear here."
+msgstr ""
+
+msgid ""
+"Only the guide is copied. Review the draft and explicitly enable reader "
+"visibility."
+msgstr ""
+
+msgid "Open book"
+msgstr ""
+
+msgid "Open the original to make your change."
+msgstr ""
+
+msgid "Original"
+msgstr ""
+
+msgid "Original name"
+msgstr ""
+
+msgid "Original unavailable"
+msgstr ""
+
+msgid ""
+"Original unavailable. Ask the website administrator to check this entry."
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone (optional)"
+msgstr ""
+
+msgid "Please check the contact details."
+msgstr ""
+
+msgid "Please check the guide fields."
+msgstr ""
+
+msgid ""
+"Please enter a full HTTP or HTTPS support address without embedded "
+"credentials."
+msgstr ""
+
+msgid "Please enter a valid email address."
+msgstr ""
+
+msgid "Please submit this action using the form."
+msgstr ""
+
+msgid "Please use a shorter menu name."
+msgstr ""
+
+msgid "Private mode must be boolean."
+msgstr ""
+
+msgid "Provider"
+msgstr ""
+
+msgid "Purpose"
+msgstr ""
+
+msgid "Read where the building block is used and what your change affects."
+msgstr ""
+
+msgid "Read-only"
+msgstr ""
+
+msgid ""
+"Reader help with supported content types and an optional support contact."
+msgstr ""
+
+msgid "Registered pattern (read-only)"
+msgstr ""
+
+msgid "Related guides"
+msgstr ""
+
+msgid "Restore guide entry"
+msgstr ""
+
+msgid ""
+"Reusable building blocks for the block editor. User-created patterns can "
+"have their own editor; registered theme or plugin patterns may be read-only. "
+"Non-synced copies in posts are edited separately."
+msgstr ""
+
+msgid "Save access"
+msgstr ""
+
+msgid "Save guide entry"
+msgstr ""
+
+msgid "Save menu appearance"
+msgstr ""
+
+msgid "Save support contact"
+msgstr ""
+
+msgid ""
+"Saved templates and Elementor pages or posts. Active Pro document types also "
+"support Theme Builder templates, global widgets, popups and loop items. "
+"Inserted copies and shared template embeddings behave differently; read the "
+"usage notes. Dynamic content may need to be edited in its underlying post."
+msgstr ""
+
+msgid "Search in Find content for your task, such as changing contact details."
+msgstr ""
+
+msgid "Search originals"
+msgstr ""
+
+msgid ""
+"Searchable original selection, related guide links, example pages, ordered "
+"editing steps, copyable direct links and duplication as invisible drafts."
+msgstr ""
+
+msgid "See the release on GitHub."
+msgstr ""
+
+msgid "Select and copy the link above."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid ""
+"Shared areas such as headers and footers, including parts supplied by the "
+"active theme. Editing takes place in the Site Editor and can affect multiple "
+"pages."
+msgstr ""
+
+msgid "Short support note"
+msgstr ""
+
+msgid "Show all guide entries"
+msgstr ""
+
+msgid "Show support contact to readers"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Source available on this website"
+msgstr ""
+
+msgid "Source not available on this website"
+msgstr ""
+
+msgid "Step by step"
+msgstr ""
+
+msgid "Support contact"
+msgstr ""
+
+msgid "Support contact saved."
+msgstr ""
+
+msgid "Support link"
+msgstr ""
+
+msgid "Templates for areas such as the header, footer or page content."
+msgstr ""
+
+msgid ""
+"The active theme does not support this menu editor. Ask the website "
+"administrator to check the theme and menu type."
+msgstr ""
+
+msgid ""
+"The effect of a change has not been clearly described yet. Ask your website "
+"support contact before making the change."
+msgstr ""
+
+msgid ""
+"The guide explains the building block. Edit original opens its actual "
+"editor, provided you already have permission."
+msgstr ""
+
+msgid ""
+"The guide is a selected overview. The item may not have been added or made "
+"visible yet. Try a task or everyday term, then ask your website support "
+"contact."
+msgstr ""
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+msgid ""
+"The private update could not be authorized. Check the repository credentials "
+"and refresh updates."
+msgstr ""
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid ""
+"The recipient needs guide read access. Copying a link does not grant access."
+msgstr ""
+
+msgid "The update package does not match this plugin or its requirements."
+msgstr ""
+
+msgid ""
+"These details are visible to everyone with guide read access. Leave them "
+"empty or disable the box to hide them."
+msgstr ""
+
+msgid ""
+"This building block is used in multiple places. Read the effect and usage "
+"notes before editing."
+msgstr ""
+
+msgid "This guide is not available in the current view."
+msgstr ""
+
+msgid ""
+"This registered pattern is read-only. Contact the website administrator."
+msgstr ""
+
+msgid "Three simple steps"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid ""
+"Try a shorter task or everyday term, or choose All areas. Your website "
+"administrator may still need to add or release the item."
+msgstr ""
+
+msgid "Usage and effects are described manually by the website administrator."
+msgstr ""
+
+msgid ""
+"Use a full HTTP or HTTPS address of a checked example page. Public pages and "
+"posts use their own address when this field is empty."
+msgstr ""
+
+msgid "Use a task name, such as Change the phone number in the footer."
+msgstr ""
+
+msgid "View website"
+msgstr ""
+
+msgid "Visible to readers"
+msgstr ""
+
+msgid "Website area"
+msgstr ""
+
+msgid "What does Check usage mean?"
+msgstr ""
+
+msgid "What kinds of content can you find here?"
+msgstr ""
+
+msgid "What would you like to change?"
+msgstr ""
+
+msgid "Where it is used"
+msgstr ""
+
+msgid "Why can I not find a content item?"
+msgstr ""
+
+msgid "Why is Edit original missing?"
+msgstr ""
+
+msgid "WordPress block navigation"
+msgstr ""
+
+msgid "WordPress classic menu"
+msgstr ""
+
+msgid "WordPress navigation and menus"
+msgstr ""
+
+msgid "WordPress page"
+msgstr ""
+
+msgid "WordPress pages and posts"
+msgstr ""
+
+msgid ""
+"WordPress pages, posts, template parts, block navigation, classic menus and "
+"active Elementor Free/Pro document types."
+msgstr ""
+
+msgid "WordPress pattern"
+msgstr ""
+
+msgid "WordPress patterns"
+msgstr ""
+
+msgid "WordPress post"
+msgstr ""
+
+msgid "WordPress template part"
+msgstr ""
+
+msgid "WordPress template parts"
+msgstr ""
+
+msgid "You cannot manage this guide."
+msgstr ""
+
+msgid "You cannot read this guide."
+msgstr ""
+
+msgid ""
+"You do not need a guide for every content item. Start with frequent "
+"maintenance tasks, common stumbling blocks and shared templates whose "
+"changes affect several places."
+msgstr ""
+
+msgid ""
+"You may lack editing permission, the original may be unavailable, or the "
+"building block may be read-only. Use the support details below if they are "
+"provided."
+msgstr ""
+
+msgid "%s is installed but inactive. Activate it first."
+msgstr ""
+
+msgid "%s is missing. Install and activate it first."
+msgstr ""
+
+msgid "%s must be network activated first."
+msgstr ""
+
+msgid "%s supports activation per site only."
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid ""
+"Activate Bricks QuickNav per site after selecting the Bricks parent or child "
+"theme."
+msgstr ""
+
+msgid "Activating…"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Already active"
+msgstr ""
+
+msgid "Another action for this plugin is running. Please wait."
+msgstr ""
+
+msgid "Apr"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "Archive contains too many files."
+msgstr ""
+
+msgid "Archive symlinks are not permitted."
+msgstr ""
+
+msgid "As of "
+msgstr ""
+
+msgid "Aug"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "Back to deckerweb"
+msgstr ""
+
+msgid "Builder"
+msgstr ""
+
+msgid "Cannot create temporary file."
+msgstr ""
+
+msgid "Cannot create verified archive."
+msgstr ""
+
+msgid "Cannot finalize archive."
+msgstr ""
+
+msgid "Cannot normalize archive."
+msgstr ""
+
+msgid "Cannot read archive entry."
+msgstr ""
+
+msgid "Catalog URL"
+msgstr ""
+
+msgid "Check status"
+msgstr ""
+
+msgid "Checking status…"
+msgstr ""
+
+msgid "Commerce"
+msgstr ""
+
+msgid "Compatible additions only"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Dec"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+
+msgid "Details & requirements"
+msgstr ""
+
+msgid "Discover more plugins by deckerweb"
+msgstr ""
+
+msgid "Dismiss permanently"
+msgstr ""
+
+msgid "Done. The plugin is active."
+msgstr ""
+
+msgid "Enter a catalog URL first."
+msgstr ""
+
+msgid "Expanded archive is too large."
+msgstr ""
+
+msgid "F j, Y"
+msgstr ""
+
+msgid "Feb"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Filesystem credentials are required."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Fits my installation"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "GitHub Stars"
+msgstr ""
+
+msgid "Hide catalog"
+msgstr ""
+
+msgid "Improved"
+msgstr ""
+
+msgid "Install and activate this plugin in the network admin."
+msgstr ""
+
+msgid "Install deckerweb plugin"
+msgstr ""
+
+msgid "Install now"
+msgstr ""
+
+msgid "Installation cancelled."
+msgstr ""
+
+msgid "Installation failed."
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed: "
+msgstr ""
+
+msgid "Installing…"
+msgstr ""
+
+msgid "Invalid ZIP archive."
+msgstr ""
+
+msgid "Invalid approval flag."
+msgstr ""
+
+msgid "Invalid catalog field: "
+msgstr ""
+
+msgid "Invalid catalog revision."
+msgstr ""
+
+msgid "Invalid catalog schema."
+msgstr ""
+
+msgid "Invalid catalog timestamp."
+msgstr ""
+
+msgid "Invalid dependencies."
+msgstr ""
+
+msgid "Invalid dependency URL."
+msgstr ""
+
+msgid "Invalid dependency metadata."
+msgstr ""
+
+msgid "Invalid display field."
+msgstr ""
+
+msgid "Invalid icon color."
+msgstr ""
+
+msgid "Invalid icon label."
+msgstr ""
+
+msgid "Invalid identity or release metadata."
+msgstr ""
+
+msgid "Invalid local icon."
+msgstr ""
+
+msgid "Invalid network policy."
+msgstr ""
+
+msgid "Invalid network requirement."
+msgstr ""
+
+msgid "Invalid platform version."
+msgstr ""
+
+msgid "Invalid plugin series."
+msgstr ""
+
+msgid "Invalid star count."
+msgstr ""
+
+msgid "Invalid stars date."
+msgstr ""
+
+msgid "Jan"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "Jul"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "Jun"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Library changelog"
+msgstr ""
+
+msgid "Library settings"
+msgstr ""
+
+msgid "Library settings saved."
+msgstr ""
+
+msgid "Manage Content"
+msgstr ""
+
+msgid "Manage installed plugins"
+msgstr ""
+
+msgid "Mar"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Missing display text."
+msgstr ""
+
+msgid "Missing plugin header."
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "More by deckerweb"
+msgstr ""
+
+msgid "Multisite"
+msgstr ""
+
+msgid "Network activate"
+msgstr ""
+
+msgid "Network permission denied."
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "No approved plugins match this selection."
+msgstr ""
+
+msgid "Not installed. You can try again."
+msgstr ""
+
+msgid "Nov"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Oct"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
+msgstr ""
+
+msgid "Online catalog"
+msgstr ""
+
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+
+msgid "Only approved releases"
+msgstr ""
+
+msgid "Open catalog"
+msgstr ""
+
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+
+msgid "PHP ZIP support is required."
+msgstr ""
+
+msgid "POST required."
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Planned: "
+msgstr ""
+
+msgid "Plugin identity or version does not match the catalog."
+msgstr ""
+
+msgid "Plugin is not installed."
+msgstr ""
+
+msgid "Plugin series"
+msgstr ""
+
+msgid "Product website"
+msgstr ""
+
+msgid "Refresh catalog"
+msgstr ""
+
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+
+msgid "Release in preparation"
+msgstr ""
+
+msgid "Release must contain exactly the approved plugin directory."
+msgstr ""
+
+msgid "Repository & documentation"
+msgstr ""
+
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+
+msgid "Requires PHP %s or newer."
+msgstr ""
+
+msgid "Requires WordPress %s or newer."
+msgstr ""
+
+msgid "Requires a WordPress Multisite network."
+msgstr ""
+
+msgid "Reset filters"
+msgstr ""
+
+msgid "Retrieve approved catalog updates online"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Scripts"
+msgstr ""
+
+msgid "Search this catalog"
+msgstr ""
+
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr ""
+
+msgid "Sep"
+msgstr ""
+
+msgid "September"
+msgstr ""
+
+msgid "Shop"
+msgstr ""
+
+msgid "Show deckerweb under Add Plugins"
+msgstr ""
+
+msgid ""
+"Shows plugins whose platform and dependency requirements are met in this "
+"site or network. Without this filter, plugins with missing requirements "
+"remain visible."
+msgstr ""
+
+msgid "Small plugins. Practical improvements."
+msgstr ""
+
+msgid "Source: GitHub"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "The GitHub release could not be downloaded."
+msgstr ""
+
+msgid "The action is still running. Check its status again."
+msgstr ""
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+msgid "The approved release could not be verified."
+msgstr ""
+
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr ""
+
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+
+msgid "The catalog is disabled."
+msgstr ""
+
+msgid "The catalog is hidden."
+msgstr ""
+
+msgid ""
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
+msgstr ""
+
+msgid "The online catalog source is not trusted."
+msgstr ""
+
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+
+msgid ""
+"The request could not be completed. Check the plugin status before trying "
+"again."
+msgstr ""
+
+msgid "The requirements below describe the offered release."
+msgstr ""
+
+msgid "This catalog requires a newer Library."
+msgstr ""
+
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+
+msgid "This release is no longer approved."
+msgstr ""
+
+msgid "This release is not approved."
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Unsafe archive path."
+msgstr ""
+
+msgid "Untrusted release URL."
+msgstr ""
+
+msgid "Update %1$s to version %2$s or newer."
+msgstr ""
+
+msgid "View plugins"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "WordPress"
+msgstr ""
+
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
+msgstr ""

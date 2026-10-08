@@ -1,0 +1,44 @@
+[
+  {
+    "version": "1.0.0",
+    "date": "2026-10-08",
+    "development": true,
+    "entries": [
+      {
+        "category": "new",
+        "en": "Curated content guide for WordPress patterns, Bricks templates and GeneratePress elements.",
+        "de": "Kuratierter Content Guide für WordPress-Patterns, Bricks-Templates und GeneratePress-Elements."
+      },
+      {
+        "category": "new",
+        "en": "Reader help with supported content types and an optional support contact.",
+        "de": "Leserhilfe mit unterstützten Inhaltstypen und optionalem Ansprechpartner."
+      },
+      {
+        "category": "new",
+        "en": "WordPress pages, posts, template parts, block navigation, classic menus and active Elementor Free/Pro document types.",
+        "de": "WordPress-Seiten, Beiträge, Template-Teile, Block-Navigation, klassische Menüs und aktive Elementor-Free-/Pro-Inhaltstypen."
+      },
+      {
+        "category": "new",
+        "en": "Searchable original selection, related guide links, example pages, ordered editing steps, copyable direct links and duplication as invisible drafts.",
+        "de": "Durchsuchbare Originalauswahl, Links zu zugehörigen Guides, Beispielseiten, geordnete Arbeitsschritte, kopierbare Direktlinks und Duplizieren als ausgeblendete Entwürfe."
+      },
+      {
+        "category": "new",
+        "en": "Customizable site admin menu name and bundled WordPress icon.",
+        "de": "Anpassbarer Admin-Menüname und lokal bereitgestelltes WordPress-Icon je Website."
+      },
+      {
+        "category": "improved",
+        "en": "Direct admin submenus for finding content, managing the guide and adding entries.",
+        "de": "Direkte Admin-Untermenüs zum Finden von Inhalten, Pflegen des Guides und Hinzufügen von Einträgen."
+      },
+      {
+        "category": "improved",
+        "en": "Additional search terms, help after unsuccessful searches and reminders before editing shared building blocks.",
+        "de": "Zusätzliche Suchbegriffe, Hilfe bei erfolgloser Suche und Hinweise vor der Bearbeitung gemeinsam verwendeter Bausteine."
+      }
+    ]
+  }
+]
