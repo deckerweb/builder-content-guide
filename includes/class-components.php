@@ -18,12 +18,26 @@ final class Components {
 			add_action( 'admin_notices', array( self::class, 'notice' ) ); return;
 		}
 		try {
-			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater( BCG_FILE, self::REPOSITORY, 'Builder Content Guide', __( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ), array(), array( 'translate' => require __DIR__ . '/updater-translations.php' ) );
+			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater( BCG_FILE, self::REPOSITORY, 'Builder Content Guide', __( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ), self::artwork(), array( 'translate' => require __DIR__ . '/updater-translations.php' ) );
 			$updater->register();
 			add_filter( 'upgrader_source_selection', array( self::class, 'validate_package' ), 30, 4 );
 		} catch ( \InvalidArgumentException $exception ) {
 			add_action( 'admin_notices', array( self::class, 'notice' ) );
 		}
+	}
+
+
+	/** Provide approved icons and locale-aware banners for native update details.
+	 * @return array Public artwork URL maps; no guide data is included.
+	 */
+	private static function artwork(): array {
+		$base = 'https://raw.githubusercontent.com/deckerweb/builder-content-guide/main/graphics/';
+		$locale = get_user_locale();
+		$language = 'de' === $locale || 0 === strpos( $locale, 'de_' ) ? 'de' : 'en';
+		return array(
+			'icons' => array( 'svg' => $base . 'icon-256.svg', '1x' => $base . 'icon-128.png', '2x' => $base . 'icon-256.png', 'default' => $base . 'icon-256.png' ),
+			'banners' => array( 'low' => $base . 'banner-' . $language . '-772x250.png', 'high' => $base . 'banner-' . $language . '-1544x500.png' ),
+		);
 	}
 
 	/** Show a safe configuration notice only to administrators.
