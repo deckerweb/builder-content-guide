@@ -2,6 +2,6 @@
 
 [Deutsch](SECURITY-de.md)
 
-Security reports must be private. Before a public release, a repository and its private vulnerability reporting must be configured and verified. Do not publish unpatched vulnerability details in public issues. See SECURITY.md.
+Report vulnerabilities privately using [GitHub private vulnerability reporting](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Do not publish unpatched vulnerability details in public issues. For reproducible non-security bugs use [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
-Provide plugin, WordPress and PHP versions, reproduction steps and impact. Omit credentials and personal data. A private reporting endpoint is not yet available for this unpublished plugin.
+Provide plugin, WordPress and PHP versions, reproduction steps and impact. Omit credentials and personal data.

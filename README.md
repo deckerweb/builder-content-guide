@@ -115,7 +115,7 @@ Private bcg_entry posts store the editorial name. The _bcg_data metadata stores 
 
 ## Optional online services
 
-The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 0.8.1 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.1.0 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. The repository and release channel for this plugin have not been published yet.
+The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 0.8.1 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.1.0 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. Source code is available at https://github.com/deckerweb/builder-content-guide. No stable release has been published yet.
 
 ## Testing status
 
@@ -139,11 +139,11 @@ Developed and maintained by David Decker – DECKERWEB. Builder Content Guide fo
 
 ## Security and support
 
-Security reports must be private. Before a public release, a repository and its private vulnerability reporting must be configured and verified. Do not publish unpatched vulnerability details in public issues. See SECURITY.md.
+Report vulnerabilities privately using [GitHub private vulnerability reporting](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Do not publish unpatched vulnerability details in public issues. For reproducible non-security bugs use [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
 ## Issues and support
 
-Report reproducible bugs through [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues) once the repository is available. For website-specific editing help, use the support contact configured by your administrator.
+Report reproducible bugs through [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues). For website-specific editing help, use the support contact configured by your administrator.
 
 Support development through [Ko-fi](https://ko-fi.com/deckerweb), [Buy Me a Coffee](https://buymeacoffee.com/daveshine) or [PayPal](https://paypal.me/deckerweb).
 

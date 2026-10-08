@@ -2,6 +2,6 @@
 
 [English](SECURITY.md)
 
-Sicherheitsmeldungen müssen vertraulich erfolgen. Vor einer öffentlichen Veröffentlichung müssen das Repository und private Sicherheitsmeldungen eingerichtet und geprüft werden. Ungepatchte Sicherheitsdetails nicht in öffentlichen Issues veröffentlichen. Siehe SECURITY-de.md.
+Melde Schwachstellen vertraulich über [GitHubs private Sicherheitsmeldungen](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Veröffentliche ungepatchte Sicherheitsdetails nicht in öffentlichen Issues. Nutze für reproduzierbare Fehler ohne Sicherheitsbezug [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
-Nenne Plugin-, WordPress- und PHP-Versionen, Schritte zur Reproduktion und die Auswirkungen. Keine Zugangsdaten oder personenbezogenen Inhalte mitsenden. Für dieses unveröffentlichte Plugin steht noch kein eigener privater Meldeweg bereit.
+Nenne Plugin-, WordPress- und PHP-Versionen, Schritte zur Reproduktion und die Auswirkungen. Keine Zugangsdaten oder personenbezogenen Inhalte mitsenden.

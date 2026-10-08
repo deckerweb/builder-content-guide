@@ -115,7 +115,7 @@ Private bcg_entry-Datensätze speichern den redaktionellen Namen. _bcg_data enth
 
 ## Optionale Online-Dienste
 
-Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 0.8.1 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.1.0 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Das Repository und der Release-Kanal dieses Plugins sind noch nicht veröffentlicht.
+Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 0.8.1 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.1.0 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Der Quellcode ist unter https://github.com/deckerweb/builder-content-guide verfügbar. Ein Stable Release wurde noch nicht veröffentlicht.
 
 ## Prüfstand
 
@@ -139,11 +139,11 @@ Entwickelt und gepflegt von David Decker – DECKERWEB. Builder Content Guide ko
 
 ## Sicherheit und Unterstützung
 
-Sicherheitsmeldungen müssen vertraulich erfolgen. Vor einer öffentlichen Veröffentlichung müssen das Repository und private Sicherheitsmeldungen eingerichtet und geprüft werden. Ungepatchte Sicherheitsdetails nicht in öffentlichen Issues veröffentlichen. Siehe SECURITY-de.md.
+Melde Schwachstellen vertraulich über [GitHubs private Sicherheitsmeldungen](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Veröffentliche ungepatchte Sicherheitsdetails nicht in öffentlichen Issues. Nutze für reproduzierbare Fehler ohne Sicherheitsbezug [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
 ## Fehler melden und Entwicklung unterstützen
 
-Melde reproduzierbare Fehler über [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues), sobald das Repository verfügbar ist. Für konkrete Pflegeaufgaben auf deiner Website nutze den von der Betreuung hinterlegten Ansprechpartner.
+Melde reproduzierbare Fehler über [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues). Für konkrete Pflegeaufgaben auf deiner Website nutze den von der Betreuung hinterlegten Ansprechpartner.
 
 Unterstütze die Entwicklung über [Ko-fi](https://ko-fi.com/deckerweb), [Buy Me a Coffee](https://buymeacoffee.com/daveshine) oder [PayPal](https://paypal.me/deckerweb).
 
