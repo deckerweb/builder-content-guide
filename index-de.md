@@ -7,7 +7,7 @@ translation_url: /index.html
 
 # Builder Content Guide Dokumentation
 
-![Builder Content Guide](graphics/banner-de-1544x500.png)
+![Builder Content Guide](graphics/banner-de-1544x500.png?v=c9c6f52a68468159b35908fb092cc5900ace083c)
 
 Kuratierte Anleitungen helfen Mitarbeitern, den richtigen Bearbeitungsort zu finden und Änderungen bewusst vorzunehmen. Nicht jeder Inhalt braucht einen Guide: Beginne mit häufigen Pflegeaufgaben, Problemfällen und gemeinsam verwendeten Vorlagen.
 
