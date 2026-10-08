@@ -2,6 +2,12 @@
 
 [Deutsch](FAQ-de)
 
+## Contents
+
+- [Getting started](#getting-started)
+- [Permissions and daily work](#permissions-and-daily-work)
+- [Data and administration](#data-and-administration)
+
 ## Getting started
 
 ### Does every content item need a guide?

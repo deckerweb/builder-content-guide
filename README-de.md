@@ -2,36 +2,39 @@
 
 ![Builder Content Guide](graphics/github-de-1280x640.png)
 
-[English](README.md)
-
 ## Kurzvorstellung
 
 Finde den passenden Website-Baustein, verstehe die Wirkung einer Änderung und öffne den Original-Editor. Die Website-Betreuung kuratiert eine kleine Übergabeübersicht; Inhalte bleiben in WordPress und seinen aktiven Buildern. Nicht jeder Inhalt braucht einen Guide. Starte mit häufigen Pflegeaufgaben, typischen Stolpersteinen und gemeinsam verwendeten Vorlagen, deren Änderungen mehrere Stellen betreffen.
 
-Version 1.0.0 · Release candidate / Release-Kandidat · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Release-Kandidat · WordPress 7.0+ · PHP 8.0+
 
-- [Kurzvorstellung](#kurzvorstellung)
+[Nutzungsanleitung](docs/usage-de.md) · [Fragen nach Themen](docs/FAQ-de.md) · [Dokumentation](https://deckerweb.github.io/builder-content-guide/index-de.html) · [English](README.md)
+
+## Inhaltsverzeichnis
+
 - [Auf einen Blick](#auf-einen-blick)
 - [Erste Schritte](#erste-schritte)
+- [Funktionen](#funktionen)
+- [Aufgaben aus dem Alltag](#aufgaben-aus-dem-alltag)
 - [Häufige Fragen](#häufige-fragen)
 - [Daten und Lebenszyklus](#daten-und-lebenszyklus)
 - [Optionale Online-Dienste](#optionale-online-dienste)
 - [Prüfstand](#prüfstand)
 - [Änderungsverlauf](#änderungsverlauf)
 - [Über den Entwickler](#über-den-entwickler)
-- [Sicherheit und Unterstützung](#sicherheit-und-unterstützung)
+- [Fehler melden und Hilfe bekommen](#fehler-melden-und-hilfe-bekommen)
+- [Entwicklung unterstützen](#entwicklung-unterstützen)
 - [Lizenz und eingebettete Komponenten](#lizenz-und-eingebettete-komponenten)
 
 ## Auf einen Blick
 
-- Kompakte Aufgabenliste mit Suche nach Name, Zweck und Originalname, Bereichsfilter und Detailansicht. Direkte Admin-Untermenüs führen zur Inhaltssuche, Guide-Pflege und zum Hinzufügen von Einträgen.
-- WordPress-Seiten, Beiträge, Template-Teile, Block-Navigation und klassische Menüs; Patterns, aktive Elementor-Free-/Pro-Dokumente, Bricks-Templates und GeneratePress-Elements.
-- Manuell beschriebene Wirkung und Verwendung, Bearbeitungshinweise und bewusst aktivierte Sichtbarkeit.
-- Getrennte Rechte zum Lesen und Pflegen. Bearbeitungslinks erfordern vorhandene Rechte am Original und im Builder.
-- Fehlende, gelöschte oder deaktivierte Quellen behalten ihre Referenz und erhalten keinen aktiven Bearbeitungslink.
-- Eine Leserhilfe erklärt die unterstützten Quellen und zeigt einen optionalen, von der Betreuung gepflegten Ansprechpartner. Zusätzliche Suchbegriffe erleichtern die Suche nach Alltagsaufgaben.
-- Originale nach Provider und Inhaltstyp durchsuchen; Guides am Original hinzufügen oder finden, geprüfte Beispielseiten öffnen, geordnete Arbeitsschritte lesen, Direktlinks kopieren und Guides als ausgeblendete Entwürfe duplizieren.
-- Name und Icon des obersten Admin-Menüs je Website anpassen, etwa Anleitung. Ein leerer Name stellt den übersetzten Standard Inhalte finden wieder her.
+- Alltagsaufgaben über Suche und Website-Bereiche finden.
+- Den Original-Editor mit vorhandenen Bearbeitungsrechten öffnen.
+- Verwendung, Wirkung und nummerierte Arbeitsschritte erklären.
+- WordPress-Inhalte, Navigation und aktive Builder-Vorlagen zuordnen.
+- Leserhilfe und einen optionalen Ansprechpartner bereitstellen.
+- Leserrollen sowie Namen und Icon des Admin-Menüs anpassen.
+- Guide-Links kopieren und Anleitungen als versteckte Entwürfe duplizieren.
 
 ## Erste Schritte
 
@@ -77,6 +80,14 @@ Originale nach Provider und Inhaltstyp durchsuchen; Guides am Original hinzufüg
 
 Name und Icon des obersten Admin-Menüs je Website anpassen, etwa Anleitung. Ein leerer Name stellt den übersetzten Standard Inhalte finden wieder her.
 
+## Aufgaben aus dem Alltag
+
+![Demonstrationswebsite mit Kontakttext, Menüpunkt und Footer-Telefonnummer](docs/images/everyday-tasks-de.jpg)
+
+Die Demonstrationsansicht zeigt drei Alltagsaufgaben: Kontakttext ändern, Menüpunkt umbenennen und Telefonnummer im Footer ändern. Das oberste Menü wurde hier Anleitung genannt.
+
+[Nutzungsanleitung](docs/usage-de.md)
+
 ## Häufige Fragen
 
 ### Braucht jeder Inhalt einen Guide?
@@ -111,7 +122,7 @@ Guide-Einträge und Leserfreigaben bleiben erhalten. Der Updater-Cache wird entf
 
 ## Daten und Lebenszyklus
 
-Private bcg_entry-Datensätze speichern den redaktionellen Namen. _bcg_data enthält Quelle, Originalkennung, zuletzt bekannten Originalnamen, Zweck, Bereich, manuelle Wirkungskategorie, Wirkungserklärung, Verwendung, Bearbeitungshinweis und Sichtbarkeit. bcg_reader_roles ist eine Option je Website. Keine Originalinhalte, Zugangsdaten oder automatische Verwendungsanalyse werden gespeichert. Deaktivierung und Deinstallation erhalten Guide-Daten. Es gibt keine Frontend-Ausgabe. Optionale Kontaktangaben werden je Website in bcg_support_contact gespeichert. Die Anzeige ist zunächst ausgeschaltet und erfolgt nur für Guide-Leser nach Aktivierung durch die Betreuung. Guide-Metadaten können zusätzliche Suchbegriffe enthalten. Beide Ergänzungen bleiben bei Deaktivierung und Deinstallation erhalten. Guide-Felder enthalten einfache Arbeitsschritte als Text und eine optionale, kuratierte HTTP-/HTTPS-Beispieladresse. Duplizieren erzeugt einen Entwurf mit deaktivierter Lesersichtbarkeit; Originalinhalte werden dabei nicht dupliziert. Menüeinstellungen werden in der Website-Option bcg_menu_settings gespeichert und bei Deaktivierung und Deinstallation erhalten. Es werden keine externen Icons geladen.
+Guide-Einträge, Leserzugriff, Ansprechpartner und Menüeinstellungen werden getrennt je Website gespeichert. Originalinhalte bleiben im jeweiligen System. Deaktivierung und Deinstallation erhalten Guide-Daten und Einstellungen. Bei der Deinstallation wird der Updater-Cache entfernt; die gemeinsame Library erhält ihre Daten standardmäßig.
 
 ## Optionale Online-Dienste
 
@@ -137,20 +148,16 @@ Die tatsächliche Ausführung unter PHP 8.0, der Bearbeitungsablauf mit lizenzie
 
 Entwickelt und gepflegt von David Decker – DECKERWEB. Builder Content Guide konzentriert sich auf eine kleine redaktionelle Übergabeübersicht.
 
-## Sicherheit und Unterstützung
+## Fehler melden und Hilfe bekommen
 
 Melde Schwachstellen vertraulich über [GitHubs private Sicherheitsmeldungen](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Veröffentliche ungepatchte Sicherheitsdetails nicht in öffentlichen Issues. Nutze für reproduzierbare Fehler ohne Sicherheitsbezug [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
-## Fehler melden und Entwicklung unterstützen
+Für Pflegeaufgaben auf deiner Website nutze den von der Betreuung hinterlegten Ansprechpartner.
 
-Melde reproduzierbare Fehler über [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues). Für konkrete Pflegeaufgaben auf deiner Website nutze den von der Betreuung hinterlegten Ansprechpartner.
+## Entwicklung unterstützen
 
-Unterstütze die Entwicklung über [Ko-fi](https://ko-fi.com/deckerweb), [Buy Me a Coffee](https://buymeacoffee.com/daveshine) oder [PayPal](https://paypal.me/deckerweb).
+[Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)
 
 ## Lizenz und eingebettete Komponenten
 
 Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Unverändert eingebettet: deckerweb Library 0.8.1 und deckerweb Updater 2.1.0 von David Decker, beide GPL-2.0-or-later. Quellen: https://github.com/deckerweb/deckerweb-plugin-library und https://github.com/deckerweb/deckerweb-updater. Kein Elementor-, Bricks- oder GP-Premium-Quellcode enthalten.
-
-[Leserhilfe](docs/reader-help-de.md)
-
-[Nutzungsanleitung](docs/usage-de.md)

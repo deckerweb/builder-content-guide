@@ -1,3 +1,10 @@
+---
+layout: default
+lang: en
+title: "Builder Content Guide User Guide"
+translation_url: /docs/usage-de.html
+---
+
 # Builder Content Guide User Guide
 
 [Deutsch](usage-de.md) · [FAQ by topic](FAQ.md)
@@ -5,6 +12,15 @@
 Builder Content Guide helps staff find the right editing location and understand the effect of a change. The website administrator curates short instructions for selected tasks.
 
 **You do not need a guide for every content item.** Start with frequent maintenance tasks, common pitfalls and shared templates. Three clear instructions can already make a useful handover.
+
+## Contents
+
+- [Readers Find and edit content](#readers-find-and-edit-content)
+- [Three everyday tasks](#three-everyday-tasks)
+- [Administrators Set up the guide](#administrators-set-up-the-guide)
+- [Supported sources and limits](#supported-sources-and-limits)
+- [Troubleshooting](#troubleshooting)
+- [Handover and data](#handover-and-data)
 
 ## Readers Find and edit content
 

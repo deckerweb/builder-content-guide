@@ -1,6 +1,20 @@
+---
+layout: default
+lang: de
+title: "So findest du Inhalte"
+translation_url: /docs/reader-help.html
+---
+
 # So findest du Inhalte
 
 [English](reader-help.md)
+
+## Inhaltsverzeichnis
+
+- [Drei einfache Schritte](#drei-einfache-schritte)
+- [Welche Inhalte findest du hier?](#welche-inhalte-findest-du-hier)
+- [Häufige Fragen](#häufige-fragen)
+- [Ansprechpartner](#ansprechpartner)
 
 ## Drei einfache Schritte
 

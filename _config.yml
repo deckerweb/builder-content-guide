@@ -3,3 +3,10 @@ title: Builder Content Guide
 description: Find content. Understand changes.
 url: https://deckerweb.github.io
 baseurl: /builder-content-guide
+exclude:
+  - wiki-source
+  - includes
+  - languages
+  - builder-content-guide.php
+  - uninstall.php
+  - readme.txt

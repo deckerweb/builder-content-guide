@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title | escape }} · DECKERWEB</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+{% if page.lang == 'de' %}{% assign is_de = true %}{% else %}{% assign is_de = false %}{% endif %}
+<a id="skip-to-content" href="#content">{% if is_de %}Zum Inhalt{% else %}Skip to content{% endif %}</a>
+<header class="page-header" role="banner">
+  <p class="site-name"><a href="{{ '/' | relative_url }}">Builder Content Guide</a></p>
+  <p class="project-tagline">{% if is_de %}Inhalte finden. Änderungen verstehen.{% else %}Find content. Understand changes.{% endif %}</p>
+  <nav class="docs-nav" aria-label="{% if is_de %}Dokumentation{% else %}Documentation{% endif %}">
+    <a href="{% if is_de %}{{ '/index-de.html' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{% if is_de %}Startseite{% else %}Home{% endif %}</a>
+    <a href="{% if is_de %}{{ '/docs/usage-de.html' | relative_url }}{% else %}{{ '/docs/usage.html' | relative_url }}{% endif %}">{% if is_de %}Nutzungsanleitung{% else %}User guide{% endif %}</a>
+    <a href="{% if is_de %}{{ '/docs/FAQ-de.html' | relative_url }}{% else %}{{ '/docs/FAQ.html' | relative_url }}{% endif %}">{% if is_de %}Fragen nach Themen{% else %}FAQ by topic{% endif %}</a>
+    <a href="https://github.com/deckerweb/builder-content-guide">GitHub</a>
+    {% if page.translation_url %}<a href="{{ page.translation_url | relative_url }}" lang="{% if is_de %}en{% else %}de{% endif %}">{% if is_de %}English{% else %}Deutsch{% endif %}</a>{% endif %}
+  </nav>
+</header>
+<main id="content" class="main-content">
+  {{ content }}
+  <footer class="site-footer">
+    <p>© 2026 David Decker – DECKERWEB · <a href="https://github.com/deckerweb/builder-content-guide/blob/main/LICENSE">GPL-2.0-or-later</a></p>
+    <p><a href="https://github.com/deckerweb/builder-content-guide/issues">{% if is_de %}Fehler melden{% else %}Report a bug{% endif %}</a> · <a href="https://github.com/deckerweb/builder-content-guide/security/advisories/new">{% if is_de %}Vertrauliche Sicherheitsmeldungen{% else %}Private security reports{% endif %}</a></p>
+    <p>{% if is_de %}Entwicklung unterstützen{% else %}Support development{% endif %}: <a href="https://ko-fi.com/deckerweb">Ko-fi</a> · <a href="https://buymeacoffee.com/daveshine">Buy Me a Coffee</a> · <a href="https://paypal.me/deckerweb">PayPal</a></p>
+  </footer>
+</main>
+</body>
+</html>

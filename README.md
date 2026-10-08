@@ -2,36 +2,39 @@
 
 ![Builder Content Guide](graphics/github-en-1280x640.png)
 
-[Deutsch](README-de.md)
-
 ## About
 
 Find the right website building block, understand what a change affects, and open its original editor. The website administrator curates a small handover guide; content stays in WordPress and its active builders. You do not need a guide for every content item. Start with frequent maintenance tasks, common stumbling blocks and shared templates whose changes affect several places.
 
-Version 1.0.0 · Release candidate / Release-Kandidat · WordPress 7.0+ · PHP 8.0+
+Version 1.0.0 · Release candidate · WordPress 7.0+ · PHP 8.0+
 
-- [About](#about)
+[User guide](docs/usage.md) · [FAQ by topic](docs/FAQ.md) · [Documentation](https://deckerweb.github.io/builder-content-guide/index.html) · [Deutsch](README-de.md)
+
+## Contents
+
 - [At a glance](#at-a-glance)
 - [Getting started](#getting-started)
+- [Features](#features)
+- [Everyday tasks](#everyday-tasks)
 - [Frequently asked questions](#frequently-asked-questions)
 - [Data and lifecycle](#data-and-lifecycle)
 - [Optional online services](#optional-online-services)
 - [Testing status](#testing-status)
 - [Changelog](#changelog)
 - [About the author](#about-the-author)
-- [Security and support](#security-and-support)
+- [Issues and support](#issues-and-support)
+- [Support development](#support-development)
 - [License and bundled components](#license-and-bundled-components)
 
 ## At a glance
 
-- Compact task list with search by name, purpose and original title, an area filter and a detail panel. Direct admin submenus provide access to finding content, managing the guide and adding entries.
-- WordPress pages, posts, template parts, block navigation and classic menus; patterns, active Elementor Free/Pro documents, Bricks templates and GeneratePress Elements.
-- Manual effect and usage explanations, editing guidance and deliberately enabled reader visibility.
-- Separate reader access and management permissions. Editor links require existing original and builder permissions.
-- Missing, trashed and disabled sources keep their references and have no active editor link.
-- Reader help explains supported sources and shows an optional, administrator-maintained support contact. Extra search terms make everyday tasks easier to find.
-- Search/filter originals by provider and content type; add or find guides at originals, open checked example pages, follow ordered steps, copy direct links and duplicate guides as hidden drafts.
-- Adapt the top-level admin menu name and icon per website, for example Instructions. Leave the name empty to restore the translated default Find content.
+- Find everyday tasks using search and website areas.
+- Open the original WordPress or builder editor with existing permissions.
+- Explain usage, effects and numbered editing steps.
+- Curate WordPress content, navigation and active builder templates.
+- Provide reader help and an optional support contact.
+- Choose reader roles and adapt the admin menu label and icon.
+- Copy guide links and duplicate guides into hidden drafts.
 
 ## Getting started
 
@@ -77,6 +80,14 @@ Search/filter originals by provider and content type; add or find guides at orig
 
 Adapt the top-level admin menu name and icon per website, for example Instructions. Leave the name empty to restore the translated default Find content.
 
+## Everyday tasks
+
+![Demonstration website with contact text, menu label and footer phone tasks](docs/images/everyday-tasks-de.jpg)
+
+The German demonstration view shows three everyday tasks: change contact text, rename a menu item, and change the footer phone number. The custom menu name is Anleitung (Instructions).
+
+[User guide](docs/usage.md)
+
 ## Frequently asked questions
 
 ### Does every content item need a guide?
@@ -111,7 +122,7 @@ Guide entries and access settings remain. The updater cache is removed. The embe
 
 ## Data and lifecycle
 
-Private bcg_entry posts store the editorial name. The _bcg_data metadata stores source, original identifier, last known original title, purpose, area, manual effect category, effect explanation, usage, editing guidance and visibility. bcg_reader_roles is a per-website option. No original content, credentials or automatic usage analysis are stored. Deactivation and uninstallation preserve guide data. There is no frontend output. Optional support information is stored per website in bcg_support_contact. It is disabled by default and visible only to guide readers after administrator enablement. Guide metadata can include additional search terms. Both are retained on deactivation and uninstall. Guide fields include plain-text steps and an optional curated HTTP/HTTPS example URL. Duplication creates a draft with reader visibility disabled; original content is never duplicated. Menu preferences are stored in the site option bcg_menu_settings and retained on deactivation and uninstall. No external icons are loaded.
+Guide entries, reader access, support contact and menu preferences are stored separately for each website. Original content remains in its own system. Deactivation and uninstall preserve guide data and settings. Uninstall removes the updater cache; the shared Library retains its own data by default.
 
 ## Optional online services
 
@@ -137,20 +148,16 @@ Actual PHP 8.0 execution, a licensed Bricks editing workflow, real GP Premium El
 
 Developed and maintained by David Decker – DECKERWEB. Builder Content Guide focuses on a small editorial handover rather than a second template library.
 
-## Security and support
+## Issues and support
 
 Report vulnerabilities privately using [GitHub private vulnerability reporting](https://github.com/deckerweb/builder-content-guide/security/advisories/new). Do not publish unpatched vulnerability details in public issues. For reproducible non-security bugs use [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues).
 
-## Issues and support
+For editing help on your website, use the support contact configured by your administrator.
 
-Report reproducible bugs through [GitHub Issues](https://github.com/deckerweb/builder-content-guide/issues). For website-specific editing help, use the support contact configured by your administrator.
+## Support development
 
-Support development through [Ko-fi](https://ko-fi.com/deckerweb), [Buy Me a Coffee](https://buymeacoffee.com/daveshine) or [PayPal](https://paypal.me/deckerweb).
+[Ko-fi](https://ko-fi.com/deckerweb) · [Buy Me a Coffee](https://buymeacoffee.com/daveshine) · [PayPal](https://paypal.me/deckerweb)
 
 ## License and bundled components
 
 Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Bundled unchanged deckerweb Library 0.8.1 and deckerweb Updater 2.1.0 by David Decker, both GPL-2.0-or-later. Sources: https://github.com/deckerweb/deckerweb-plugin-library and https://github.com/deckerweb/deckerweb-updater. No Elementor, Bricks or GP Premium source code is included.
-
-[Reader help](docs/reader-help.md)
-
-[User guide](docs/usage.md)

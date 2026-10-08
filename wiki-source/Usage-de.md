@@ -6,6 +6,15 @@ Builder Content Guide hilft Mitarbeitern, den richtigen Bearbeitungsort zu finde
 
 **Nicht jeder Inhalt braucht einen Guide.** Beginne mit den häufigsten Pflegeaufgaben, typischen Stolpersteinen und gemeinsam verwendeten Vorlagen. Drei verständliche Anleitungen können bereits eine wertvolle Übergabe sein.
 
+## Inhaltsverzeichnis
+
+- [Für Leser Inhalte finden und bearbeiten](#für-leser-inhalte-finden-und-bearbeiten)
+- [Drei Aufgaben aus dem Alltag](#drei-aufgaben-aus-dem-alltag)
+- [Für Administratoren Den Guide einrichten](#für-administratoren-den-guide-einrichten)
+- [Unterstützte Quellen und Grenzen](#unterstützte-quellen-und-grenzen)
+- [Wenn etwas fehlt](#wenn-etwas-fehlt)
+- [Übergabe und Daten](#übergabe-und-daten)
+
 ## Für Leser Inhalte finden und bearbeiten
 
 1. Öffne im WordPress-Admin **Inhalte finden**. Der Betreiber kann diesen Menüpunkt zum Beispiel **Anleitung** nennen.
@@ -18,7 +27,7 @@ Der Guide ändert keine Originalinhalte und vergibt keine Bearbeitungsrechte. Ei
 
 ## Drei Aufgaben aus dem Alltag
 
-![Demonstrationswebsite mit Kontakttext, Menüpunkt und Footer-Telefonnummer](https://raw.githubusercontent.com/deckerweb/builder-content-guide/main/docs/images/everyday-tasks-de.jpg)
+![Demonstrationswebsite mit Kontakttext, Menüpunkt und Footer-Telefonnummer](https://github.com/deckerweb/builder-content-guide/raw/main/docs/images/everyday-tasks-de.jpg)
 
 Die Abbildung zeigt die drei Aufgaben aus der Testwebsite. Das oberste Menü heißt hier **Anleitung**; einzelne WordPress-Menütexte sind in dieser Testumgebung englisch. Namen und Bearbeitungsorte werden für jede echte Website von der Betreuung festgelegt.
 

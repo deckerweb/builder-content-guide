@@ -2,6 +2,12 @@
 
 [English](FAQ)
 
+## Inhaltsverzeichnis
+
+- [Einstieg](#einstieg)
+- [Rechte und Alltag](#rechte-und-alltag)
+- [Daten und Verwaltung](#daten-und-verwaltung)
+
 ## Einstieg
 
 ### Braucht jeder Inhalt einen Guide?

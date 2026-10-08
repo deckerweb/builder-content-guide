@@ -6,6 +6,15 @@ Builder Content Guide helps staff find the right editing location and understand
 
 **You do not need a guide for every content item.** Start with frequent maintenance tasks, common pitfalls and shared templates. Three clear instructions can already make a useful handover.
 
+## Contents
+
+- [Readers Find and edit content](#readers-find-and-edit-content)
+- [Three everyday tasks](#three-everyday-tasks)
+- [Administrators Set up the guide](#administrators-set-up-the-guide)
+- [Supported sources and limits](#supported-sources-and-limits)
+- [Troubleshooting](#troubleshooting)
+- [Handover and data](#handover-and-data)
+
 ## Readers Find and edit content
 
 1. Open **Find content** in WordPress admin. Your administrator may rename it, for example **Instructions**.
@@ -18,7 +27,7 @@ The guide does not modify originals or grant editing permissions. A copied guide
 
 ## Three everyday tasks
 
-![German demonstration website showing contact text, menu label and footer phone tasks](https://raw.githubusercontent.com/deckerweb/builder-content-guide/main/docs/images/everyday-tasks-de.jpg)
+![German demonstration website showing contact text, menu label and footer phone tasks](https://github.com/deckerweb/builder-content-guide/raw/main/docs/images/everyday-tasks-de.jpg)
 
 The screenshot shows the three tasks on the demonstration website. Its custom menu name is **Anleitung** (Instructions), and the guide text is German. Actual names and editing locations are chosen by your website administrator.
 

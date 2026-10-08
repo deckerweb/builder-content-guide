@@ -1,3 +1,10 @@
+---
+layout: default
+lang: de
+title: "Builder Content Guide Nutzungsanleitung"
+translation_url: /docs/usage.html
+---
+
 # Builder Content Guide Nutzungsanleitung
 
 [English](usage.md) · [Fragen nach Themen](FAQ-de.md)
@@ -5,6 +12,15 @@
 Builder Content Guide hilft Mitarbeitern, den richtigen Bearbeitungsort zu finden und die Wirkung einer Änderung zu verstehen. Die Website-Betreuung hinterlegt dafür gezielt kurze Anleitungen.
 
 **Nicht jeder Inhalt braucht einen Guide.** Beginne mit den häufigsten Pflegeaufgaben, typischen Stolpersteinen und gemeinsam verwendeten Vorlagen. Drei verständliche Anleitungen können bereits eine wertvolle Übergabe sein.
+
+## Inhaltsverzeichnis
+
+- [Für Leser Inhalte finden und bearbeiten](#für-leser-inhalte-finden-und-bearbeiten)
+- [Drei Aufgaben aus dem Alltag](#drei-aufgaben-aus-dem-alltag)
+- [Für Administratoren Den Guide einrichten](#für-administratoren-den-guide-einrichten)
+- [Unterstützte Quellen und Grenzen](#unterstützte-quellen-und-grenzen)
+- [Wenn etwas fehlt](#wenn-etwas-fehlt)
+- [Übergabe und Daten](#übergabe-und-daten)
 
 ## Für Leser Inhalte finden und bearbeiten
 

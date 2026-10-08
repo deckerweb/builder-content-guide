@@ -1,6 +1,19 @@
+---
+layout: default
+lang: en
+title: "FAQ by topic"
+translation_url: /docs/FAQ-de.html
+---
+
 # FAQ by topic
 
 [Deutsch](FAQ-de.md)
+
+## Contents
+
+- [Getting started](#getting-started)
+- [Permissions and daily work](#permissions-and-daily-work)
+- [Data and administration](#data-and-administration)
 
 ## Getting started
 

@@ -1,6 +1,20 @@
+---
+layout: default
+lang: en
+title: "How to find content"
+translation_url: /docs/reader-help-de.html
+---
+
 # How to find content
 
 [Deutsch](reader-help-de.md)
+
+## Contents
+
+- [Three simple steps](#three-simple-steps)
+- [What kinds of content can you find here?](#what-kinds-of-content-can-you-find-here)
+- [Common questions](#common-questions)
+- [Support contact](#support-contact)
 
 ## Three simple steps
 

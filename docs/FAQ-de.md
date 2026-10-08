@@ -1,6 +1,19 @@
+---
+layout: default
+lang: de
+title: "Fragen nach Themen"
+translation_url: /docs/FAQ.html
+---
+
 # Fragen nach Themen
 
 [English](FAQ.md)
+
+## Inhaltsverzeichnis
+
+- [Einstieg](#einstieg)
+- [Rechte und Alltag](#rechte-und-alltag)
+- [Daten und Verwaltung](#daten-und-verwaltung)
 
 ## Einstieg
 
