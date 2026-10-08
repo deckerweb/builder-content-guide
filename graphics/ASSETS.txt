@@ -1,11 +1,9 @@
-Builder Content Guide – Aufgabenkarte / task card
+Builder Content Guide – Aufgabenkarte / Task card
 Copyright 2026 David Decker – DECKERWEB. GPL-2.0-or-later.
 
-Original scalable SVG artwork and PNG exports based on approved concept 3.
-SVG text uses a system sans-serif fallback; no font files are distributed.
+GitHub EN/DE: 1280 × 640 PNG/SVG.
+Wide banners EN/DE: 1544 × 500 PNG/SVG and 772 × 250 PNG.
+Icon: 256 × 256 PNG/SVG and 128 × 128 PNG.
 
-GitHub banners EN/DE: 1280 × 640 SVG/PNG.
-Wide banners EN/DE: 1544 × 500 SVG/PNG and 772 × 250 PNG.
-Icon: 256 × 256 SVG/PNG and 128 × 128 PNG.
-
-Wide sizes are prepared assets, not a WordPress.org submission.
+PNG masters retain the approved artwork. The self-contained SVG files embed that artwork to preserve its exact appearance; no font files are distributed.
+Die PNG-Master enthalten die freigegebene Grafik. Die eigenständigen SVG-Dateien betten diese Grafik für identische Darstellung ein; es werden keine Schriftdateien ausgeliefert.
