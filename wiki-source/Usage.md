@@ -96,8 +96,6 @@ Administrators can add or find related guides at supported originals: content li
 
 Support does not mean every item has a guide or every reader can edit it. Inactive builders, missing originals, trashed content and unsuitable themes may prevent an editing link. Saved references are preserved.
 
-Generic custom post types with ACF, Meta Box, JetEngine, ACPT or Pods, screenshot fields, a structured step editor with colored notices, dashboard widgets, a general frontend toolbar and WordPress command-palette integration are planned extensions, not part of 1.0.0.
-
 ## Troubleshooting
 
 **No guide found:** Try a shorter search and all areas. Ask the administrator to check for a visible entry and a reader-role grant. The help page explains supported content types.

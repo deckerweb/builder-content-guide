@@ -96,8 +96,6 @@ An unterstützten Originalen können Administratoren **Guide-Eintrag hinzufügen
 
 Unterstützung bedeutet nicht, dass für jeden Inhalt ein Guide existiert oder jeder Leser ihn bearbeiten darf. Inaktive Builder, fehlende Originale, Papierkorb und unpassende Themes können den Bearbeitungslink verhindern. Die gespeicherte Referenz bleibt erhalten.
 
-Allgemeine Custom Post Types mit ACF, Meta Box, JetEngine, ACPT oder Pods, Screenshot-Felder im Guide, ein strukturierter Schritte-Editor mit farbigen Hinweisen, Dashboard-Widgets, allgemeine Frontend-Toolbar und WordPress-Befehlspalette sind für spätere Erweiterungen vorgesehen und nicht Bestandteil von 1.0.0.
-
 ## Wenn etwas fehlt
 
 **Kein Guide gefunden:** Suche kürzer, wähle alle Bereiche und prüfe mit der Betreuung, ob ein sichtbarer Eintrag und eine Rollenfreigabe existieren. Auf der Hilfe-Seite werden unterstützte Inhaltstypen erklärt.
