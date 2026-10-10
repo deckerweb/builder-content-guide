@@ -7,7 +7,7 @@ translation_url: /index-de.html
 
 # Builder Content Guide Documentation
 
-![Builder Content Guide](graphics/banner-en-1544x500.png?v=c9c6f52a68468159b35908fb092cc5900ace083c)
+![Builder Content Guide](graphics/banner-en-1544x500.png?v=vector-20261010)
 
 Curated instructions help staff find the correct editing location and understand changes. Every content item does not need a guide: start with frequent tasks, common pitfalls and shared templates.
 

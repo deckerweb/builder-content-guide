@@ -1,9 +1,7 @@
-Builder Content Guide – Aufgabenkarte / Task card
-Copyright 2026 David Decker – DECKERWEB. GPL-2.0-or-later.
-
-GitHub EN/DE: 1280 × 640 PNG/SVG.
-Wide banners EN/DE: 1544 × 500 PNG/SVG and 772 × 250 PNG.
-Icon: 256 × 256 PNG/SVG and 128 × 128 PNG.
-
-PNG masters retain the approved artwork. The self-contained SVG files embed that artwork to preserve its exact appearance; no font files are distributed.
-Die PNG-Master enthalten die freigegebene Grafik. Die eigenständigen SVG-Dateien betten diese Grafik für identische Darstellung ein; es werden keine Schriftdateien ausgeliefert.
+Builder Content Guide — Tasks / Aufgabenkarte
+Copyright 2026 David Decker — DECKERWEB. Artwork: GPL-2.0-or-later.
+Native SVG forms, outlined Inter lettering and gradients. No embedded raster images, external resources, scripts or filters.
+Inter: SIL Open Font License 1.1; full license in FONT-LICENSE-Inter.txt. No font binaries distributed.
+All PNGs rendered from their corresponding SVG source. WordPress banners are proportional centered crops of the GitHub composition.
+Blue backgrounds are intentional; the exterior of the rounded icon is transparent. Icon PNGs: 128, 256, 512 and 1024 pixels.
+Earlier artwork retained under archive/ and masters/.

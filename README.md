@@ -1,6 +1,6 @@
 # Builder Content Guide
 
-![Builder Content Guide](graphics/github-en-1280x640.png?v=c9c6f52a68468159b35908fb092cc5900ace083c)
+![Builder Content Guide](graphics/github-en-1280x640.png?v=vector-20261010)
 
 ## About
 

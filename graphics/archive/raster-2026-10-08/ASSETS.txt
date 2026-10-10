@@ -1,0 +1,9 @@
+Builder Content Guide – Aufgabenkarte / Task card
+Copyright 2026 David Decker – DECKERWEB. GPL-2.0-or-later.
+
+GitHub EN/DE: 1280 × 640 PNG/SVG.
+Wide banners EN/DE: 1544 × 500 PNG/SVG and 772 × 250 PNG.
+Icon: 256 × 256 PNG/SVG and 128 × 128 PNG.
+
+PNG masters retain the approved artwork. The self-contained SVG files embed that artwork to preserve its exact appearance; no font files are distributed.
+Die PNG-Master enthalten die freigegebene Grafik. Die eigenständigen SVG-Dateien betten diese Grafik für identische Darstellung ein; es werden keine Schriftdateien ausgeliefert.
