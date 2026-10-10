@@ -1,6 +1,6 @@
 # Builder Content Guide · Documentation / Dokumentation
 
-![Builder Content Guide](https://raw.githubusercontent.com/deckerweb/builder-content-guide/c9c6f52a68468159b35908fb092cc5900ace083c/graphics/banner-de-1544x500.png)
+![Builder Content Guide](https://raw.githubusercontent.com/deckerweb/builder-content-guide/ef5826d11e27d77f83ce44eb784009b6a01de904/graphics/banner-de-1544x500.png)
 
 **Find content. Understand changes. · Inhalte finden. Änderungen verstehen.**
 
