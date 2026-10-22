@@ -1281,3 +1281,24 @@ msgid ""
 "You already use one of my plugins. Find selected additions in the deckerweb "
 "tab."
 msgstr ""
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr ""
+
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr ""
+
+msgid "Dismiss this notice"
+msgstr ""
+
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr ""
+
+msgid "Updated plugin catalog and GitHub update support."
+msgstr ""
+
+msgid "The changelog remains closed until requested and keeps a documentation fallback."
+msgstr ""
+
+msgid "Requires PHP 8.1 or later; WordPress 7.0 remains the minimum."
+msgstr ""

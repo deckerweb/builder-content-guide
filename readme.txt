@@ -3,8 +3,8 @@ Contributors: deckerweb
 Tags: content, patterns, templates
 Requires at least: 7.0
 Tested up to: 7.1.3
-Requires PHP: 8.0
-Stable tag: 1.0.0
+Requires PHP: 8.1
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Curated instructions for everyday website tasks: find the original content, unde
 
 == Description ==
 
-Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
+Version 1.0.1 · Stable Release · WordPress 7.0+ · PHP 8.1+
 
 * Compact task list with search by name, purpose and original title, an area filter and a detail panel. Direct admin submenus provide access to finding content, managing the guide and adding entries.
 * WordPress pages, posts, template parts, block navigation and classic menus; patterns, active Elementor Free/Pro documents, Bricks templates and GeneratePress Elements.
@@ -23,7 +23,7 @@ Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
 * Search/filter originals by provider and content type; add or find guides at originals, open checked example pages, follow ordered steps, copy direct links and duplicate guides as hidden drafts.
 * Adapt the top-level admin menu name and icon per website, for example Instructions. Leave the name empty to restore the translated default Find content.
 
-The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 0.8.1 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.1.0 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. Source code is available at https://github.com/deckerweb/builder-content-guide. No stable release has been published yet.
+The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 1.1.0 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.2.1 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. Source code is available at https://github.com/deckerweb/builder-content-guide. No stable release has been published yet.
 
 == Installation ==
 
@@ -66,6 +66,12 @@ Guide entries and role grants belong to each website. Network activation is supp
 Guide entries and access settings remain. The updater cache is removed. The embedded Library follows its shared last-host cleanup rules and preserves data by default.
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Improved: Updated plugin catalog and GitHub update support.
+* Fixed: The changelog stays closed until requested and retains a documentation fallback.
+* Misc: Requires PHP 8.1 or later; WordPress 7.0 remains the minimum.
 
 = 1.0.0 =
 

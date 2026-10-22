@@ -1,5 +1,11 @@
 ## Changelog
 
+### 1.0.1 (2026-10-22)
+
+- **Improved:** Updated plugin catalog and GitHub update support.
+- **Fixed:** The changelog remains closed until requested and keeps a documentation fallback.
+- **Misc:** Requires PHP 8.1 or later; WordPress 7.0 remains the minimum.
+
 ### 1.0.0 — Stable Release (2026-10-08)
 
 - **New:** Curated content guide for WordPress patterns, Bricks templates and GeneratePress elements.

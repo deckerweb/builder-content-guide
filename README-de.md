@@ -6,7 +6,7 @@
 
 Finde den passenden Website-Baustein, verstehe die Wirkung einer Änderung und öffne den Original-Editor. Die Website-Betreuung kuratiert eine kleine Übergabeübersicht; Inhalte bleiben in WordPress und seinen aktiven Buildern. Nicht jeder Inhalt braucht einen Guide. Starte mit häufigen Pflegeaufgaben, typischen Stolpersteinen und gemeinsam verwendeten Vorlagen, deren Änderungen mehrere Stellen betreffen.
 
-Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
+Version 1.0.1 · Stable Release · WordPress 7.0+ · PHP 8.1+
 
 [Nutzungsanleitung](docs/usage-de.md) · [Fragen nach Themen](docs/FAQ-de.md) · [Dokumentation](https://deckerweb.github.io/builder-content-guide/index-de.html) · [English](README.md)
 
@@ -126,13 +126,19 @@ Guide-Einträge, Leserzugriff, Ansprechpartner und Menüeinstellungen werden get
 
 ## Optionale Online-Dienste
 
-Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 0.8.1 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.1.0 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Der Quellcode ist unter https://github.com/deckerweb/builder-content-guide verfügbar.
+Der Guide funktioniert lokal und benötigt keinen Cloud- oder KI-Dienst. Die eingebettete deckerweb Library 1.1.0 bietet einen optionalen Plugin-Katalog; dessen Online-Modus ist zunächst ausgeschaltet. Der deckerweb Updater 2.2.1 nutzt GitHub im normalen WordPress-Updateablauf. GitHub erhält die üblichen WordPress-HTTP-Anfragedaten und den öffentlichen Repository-Pfad. Guide-Einträge und Originalinhalte werden nicht übertragen. Der Quellcode ist unter https://github.com/deckerweb/builder-content-guide verfügbar.
 
 ## Prüfstand
 
 Laufzeitprüfungen: WordPress 7.0 mit PHP 8.1.29 und WordPress 7.1.3 mit PHP 8.4.5. PHP 8.0 wurde nicht getestet. Getestet mit Elementor Free 4.3.4 und Elementor Pro 4.3.1. Inaktive Dokumenttypen sind nicht verfügbar; bei fehlendem Zugriff auf die Zwischenablage wird der Link zum manuellen Kopieren markiert.
 
 ## Änderungsverlauf
+
+### 1.0.1 (2026-10-22)
+
+- **Verbessert:** Plugin-Katalog und GitHub-Updates aktualisiert.
+- **Behoben:** Der Änderungsverlauf bleibt bis zum Öffnen geschlossen und bietet einen Dokumentationslink als Ersatz.
+- **Sonstiges:** Benötigt PHP 8.1 oder höher; WordPress 7.0 bleibt die Mindestversion.
 
 ### 1.0.0 — Stable Release (2026-10-08)
 
@@ -160,4 +166,4 @@ Für Pflegeaufgaben auf deiner Website nutze den von der Betreuung hinterlegten 
 
 ## Lizenz und eingebettete Komponenten
 
-Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Unverändert eingebettet: deckerweb Library 0.8.1 und deckerweb Updater 2.1.0 von David Decker, beide GPL-2.0-or-later. Quellen: https://github.com/deckerweb/deckerweb-plugin-library und https://github.com/deckerweb/deckerweb-updater. Kein Elementor-, Bricks- oder GP-Premium-Quellcode enthalten.
+Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Unverändert eingebettet: deckerweb Library 1.1.0 und deckerweb Updater 2.2.1 von David Decker, beide GPL-2.0-or-later. Quellen: https://github.com/deckerweb/deckerweb-plugin-library und https://github.com/deckerweb/deckerweb-updater. Kein Elementor-, Bricks- oder GP-Premium-Quellcode enthalten.

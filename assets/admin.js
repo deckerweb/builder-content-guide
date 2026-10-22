@@ -2,10 +2,35 @@
 (() => {
   const opener = document.querySelector('[data-bcg-changelog]');
   const dialog = document.getElementById('bcg-changelog');
-  if (opener && dialog && typeof dialog.showModal === 'function') {
-    opener.addEventListener('click', () => dialog.showModal());
-    dialog.querySelector('[data-bcg-close]').addEventListener('click', () => dialog.close());
-    dialog.addEventListener('close', () => opener.focus());
+  if (opener && dialog && !dialog.dataset.bcgBound) {
+    dialog.dataset.bcgBound = 'true';
+    const prototype = window.HTMLDialogElement && HTMLDialogElement.prototype;
+    const close = () => {
+      if (prototype && typeof prototype.close === 'function' && dialog.open) {
+        try { prototype.close.call(dialog); } catch (_) { dialog.removeAttribute('open'); }
+      }
+      dialog.removeAttribute('open');
+      dialog.hidden = true;
+      opener.focus();
+    };
+    opener.addEventListener('click', event => {
+      if (!prototype || typeof prototype.showModal !== 'function') return;
+      dialog.hidden = false;
+      try {
+        prototype.showModal.call(dialog);
+        if (!dialog.open) throw new Error('Dialog did not open');
+        event.preventDefault();
+      } catch (_) { dialog.removeAttribute('open'); dialog.hidden = true; }
+    });
+    dialog.addEventListener('click', event => {
+      if (event.target.closest('[data-bcg-close]')) { event.preventDefault(); close(); }
+      else if (event.target === dialog) {
+        const bounds = dialog.getBoundingClientRect();
+        if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) close();
+      }
+    }, true);
+    dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
+    dialog.addEventListener('close', close);
   }
 
   const copy = document.querySelector('[data-bcg-copy]');

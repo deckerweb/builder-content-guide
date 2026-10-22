@@ -4,4 +4,4 @@ Native SVG forms, outlined Inter lettering and gradients. No embedded raster ima
 Inter: SIL Open Font License 1.1; full license in FONT-LICENSE-Inter.txt. No font binaries distributed.
 All PNGs rendered from their corresponding SVG source. WordPress banners are proportional centered crops of the GitHub composition.
 Blue backgrounds are intentional; the exterior of the rounded icon is transparent. Icon PNGs: 128, 256, 512 and 1024 pixels.
-Earlier artwork retained under archive/ and masters/.
+

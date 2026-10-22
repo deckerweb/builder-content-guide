@@ -1,5 +1,11 @@
 ## Änderungsverlauf
 
+### 1.0.1 (2026-10-22)
+
+- **Verbessert:** Plugin-Katalog und GitHub-Updates aktualisiert.
+- **Behoben:** Der Änderungsverlauf bleibt bis zum Öffnen geschlossen und bietet einen Dokumentationslink als Ersatz.
+- **Sonstiges:** Benötigt PHP 8.1 oder höher; WordPress 7.0 bleibt die Mindestversion.
+
 ### 1.0.0 — Stable Release (2026-10-08)
 
 - **Neu:** Kuratierter Content Guide für WordPress-Patterns, Bricks-Templates und GeneratePress-Elements.

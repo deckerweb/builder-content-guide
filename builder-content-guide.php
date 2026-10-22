@@ -3,9 +3,9 @@
  * Plugin Name: Builder Content Guide
  * Plugin URI: https://github.com/deckerweb/builder-content-guide
  * Description: Find the right website building block, understand the effect of a change, and open its original editor.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 7.0
- * Requires PHP: 8.0
+ * Requires PHP: 8.1
  * Author: David Decker – DECKERWEB
  * Author URI: https://github.com/deckerweb
  * License: GPL v2 or later
@@ -23,8 +23,10 @@ namespace Deckerweb\BuilderContentGuide;
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 define( 'BCG_FILE', __FILE__ );
-foreach ( array( 'sources', 'store', 'settings', 'help', 'admin', 'components', 'plugin' ) as $bcg_component ) {
-	require_once __DIR__ . '/includes/class-' . $bcg_component . '.php';
+define( 'BCG_VERSION', '1.0.1' );
+require_once __DIR__ . '/includes/history-translations.php';
+foreach ( array( 'sources', 'store', 'settings', 'help', 'admin', 'components', 'plugin' ) as $builder_content_guide_component ) {
+	require_once __DIR__ . '/includes/class-' . $builder_content_guide_component . '.php';
 }
 add_action( 'plugins_loaded', array( Plugin::class, 'boot' ) );
 

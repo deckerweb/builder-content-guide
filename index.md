@@ -33,4 +33,4 @@ Curated instructions help staff find the correct editing location and understand
 
 [Repository](https://github.com/deckerweb/builder-content-guide) · [Wiki](https://github.com/deckerweb/builder-content-guide/wiki)
 
-[Version 1.0.0 is available](https://github.com/deckerweb/builder-content-guide/releases/tag/1.0.0). Requirements: WordPress 7.0+ and PHP 8.0+.
+[Version 1.0.1 is available](https://github.com/deckerweb/builder-content-guide/releases/tag/1.0.1). Requirements: WordPress 7.0+ and PHP 8.1+.

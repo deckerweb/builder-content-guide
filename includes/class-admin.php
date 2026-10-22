@@ -50,7 +50,7 @@ final class Admin {
 	public static function assets( string $hook ): void {
 		if ( ! in_array( $hook, self::$screens, true ) ) { return; }
 		wp_enqueue_style( 'bcg-admin', plugins_url( 'assets/admin.css', BCG_FILE ), array(), '1.0.0' );
-		wp_enqueue_script( 'bcg-admin', plugins_url( 'assets/admin.js', BCG_FILE ), array(), '1.0.0', true );
+		wp_enqueue_script( 'bcg-admin', plugins_url( 'assets/admin.js', BCG_FILE ), array(), BCG_VERSION, true );
 	}
 
 	/** Add a native guide panel to supported WordPress block editors, including full-screen Site Editor.
@@ -59,7 +59,7 @@ final class Admin {
 	public static function editor_assets(): void {
 		$screen = get_current_screen();
 		if ( ! current_user_can( 'manage_options' ) || ! $screen || ! $screen->is_block_editor() || ! in_array( $GLOBALS['pagenow'] ?? '', array( 'post.php', 'post-new.php', 'site-editor.php' ), true ) ) { return; }
-		wp_enqueue_script( 'bcg-editor', plugins_url( 'assets/editor.js', BCG_FILE ), array( 'wp-plugins', 'wp-element', 'wp-data', 'wp-editor', 'wp-components' ), '1.0.0', true );
+		wp_enqueue_script( 'bcg-editor', plugins_url( 'assets/editor.js', BCG_FILE ), array( 'wp-plugins', 'wp-element', 'wp-data', 'wp-editor', 'wp-components' ), BCG_VERSION, true );
 		wp_localize_script( 'bcg-editor', 'bcgEditorGuide', array( 'title' => __( 'Content guide', 'builder-content-guide' ), 'add' => __( 'Add guide entry', 'builder-content-guide' ), 'related' => __( 'Related guides', 'builder-content-guide' ), 'addUrl' => self::url( array( 'view' => 'edit' ) ), 'readUrl' => self::url() ) );
 	}
 
@@ -132,7 +132,7 @@ final class Admin {
 	 * @return void
 	 */
 	public static function render_original_box( \WP_Post $post ): void {
-		echo '<p>' . self::original_links( Sources::reference_for_post( $post ) ) . '</p>';
+		echo '<p>' . wp_kses_post( self::original_links( Sources::reference_for_post( $post ) ) ) . '</p>';
 	}
 
 	/** Show links for the selected classic menu in its existing admin screen.
@@ -143,7 +143,7 @@ final class Admin {
 		if ( '0' === self::query( 'menu' ) ) { return; }
 		$id = absint( self::query( 'menu' ) );
 		if ( ! $id ) { $id = absint( get_user_option( 'nav_menu_recently_edited' ) ); }
-		if ( $id && wp_get_nav_menu_object( $id ) ) { echo '<div class="notice notice-info"><p>' . esc_html__( 'Content guide', 'builder-content-guide' ) . ': ' . self::original_links( 'menu:' . $id ) . '</p></div>'; }
+		if ( $id && wp_get_nav_menu_object( $id ) ) { echo '<div class="notice notice-info"><p>' . esc_html__( 'Content guide', 'builder-content-guide' ) . ': ' . wp_kses_post( self::original_links( 'menu:' . $id ) ) . '</p></div>'; }
 	}
 
 	/** Add native toolbar links for the original currently open in Elementor or the Site Editor.
@@ -188,7 +188,7 @@ final class Admin {
 		if ( 'builder-content-guide-manage' === $page ) { $view = 'manage'; }
 		elseif ( 'builder-content-guide-add' === $page ) { $view = 'edit'; }
 		elseif ( 'builder-content-guide-help' === $page ) { $view = 'help'; }
-		echo '<div class="wrap bcg"><header><h1>Builder Content Guide</h1><p>' . esc_html__( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ) . '</p></header>';
+		echo '<div class="wrap bcg"><header><h1><img class="bcg-icon" src="' . esc_url( plugins_url( 'assets/icon-128.png', BCG_FILE ) ) . '" width="48" height="48" alt=""> Builder Content Guide</h1><p>' . esc_html__( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ) . '</p></header>';
 		if ( $manager ) {
 			echo '<nav class="bcg-nav" aria-label="' . esc_attr__( 'Guide views', 'builder-content-guide' ) . '"><a class="button" href="' . esc_url( self::url() ) . '">' . esc_html__( 'Find content', 'builder-content-guide' ) . '</a> <a class="button" href="' . esc_url( self::url( array( 'view' => 'manage' ) ) ) . '">' . esc_html__( 'Manage guide', 'builder-content-guide' ) . '</a></nav>';
 		}
@@ -381,14 +381,14 @@ final class Admin {
 	 * @return void
 	 */
 	private static function authorize(): void {
-		if ( 'POST' !== ( $_SERVER['REQUEST_METHOD'] ?? '' ) ) { wp_die( esc_html__( 'Please submit this action using the form.', 'builder-content-guide' ), '', array( 'response' => 405 ) ); }
+		if ( 'POST' !== sanitize_text_field( wp_unslash( $_SERVER['REQUEST_METHOD'] ?? '' ) ) ) { wp_die( esc_html__( 'Please submit this action using the form.', 'builder-content-guide' ), '', array( 'response' => 405 ) ); }
 		if ( ! current_user_can( 'manage_options' ) ) { wp_die( esc_html__( 'You cannot manage this guide.', 'builder-content-guide' ), '', array( 'response' => 403 ) ); }
 	}
 
 	/** Extract a scalar POST entry ID without accepting arrays.
 	 * @return int Entry ID or zero.
 	 */
-	private static function posted_id(): int { return isset( $_POST['entry'] ) && is_scalar( $_POST['entry'] ) ? absint( $_POST['entry'] ) : 0; }
+	private static function posted_id(): int { return isset( $_POST['entry'] ) && is_scalar( $_POST['entry'] ) ? absint( wp_unslash( $_POST['entry'] ) ) : 0; }
 
 	/** Save a validated guide via a nonce-protected POST action.
 	 * @return void
@@ -471,7 +471,9 @@ final class Admin {
 	 * @return void
 	 */
 	private static function footer(): void {
-		echo '<footer class="bcg-footer">deckerweb · Builder Content Guide 1.0.0 · <button type="button" class="button-link" data-bcg-changelog>' . esc_html__( 'Changelog', 'builder-content-guide' ) . '</button></footer><dialog id="bcg-changelog" aria-labelledby="bcg-changelog-title"><h2 id="bcg-changelog-title">' . esc_html__( 'Changelog', 'builder-content-guide' ) . '</h2>';
+		$language = str_starts_with( determine_locale(), 'de' ) ? '-de' : '';
+		$url = 'https://github.com/deckerweb/builder-content-guide/wiki/Changelog' . $language;
+		echo '<footer class="bcg-footer">deckerweb · Builder Content Guide ' . esc_html( BCG_VERSION ) . ' · <a href="' . esc_url( $url ) . '" data-bcg-changelog>' . esc_html__( 'Changelog', 'builder-content-guide' ) . '</a></footer><dialog hidden id="bcg-changelog" aria-labelledby="bcg-changelog-title"><h2 id="bcg-changelog-title">' . esc_html__( 'Changelog', 'builder-content-guide' ) . '</h2>';
 		$history = json_decode( (string) file_get_contents( __DIR__ . '/history.json' ), true );
 		$categories = array( 'new' => __( 'New:', 'builder-content-guide' ), 'improved' => __( 'Improved:', 'builder-content-guide' ), 'fixed' => __( 'Fixed:', 'builder-content-guide' ), 'misc' => __( 'Misc:', 'builder-content-guide' ) );
 		foreach ( is_array( $history ) ? $history : array() as $release ) {
@@ -480,10 +482,10 @@ final class Admin {
 			echo '</p><ul>';
 			foreach ( $release['entries'] as $entry ) {
 				// English messages in history.json are also included in the host catalogs by the build tool.
-				echo '<li><span class="bcg-badge">' . esc_html( $categories[ $entry['category'] ] ?? '' ) . '</span> ' . esc_html( translate( $entry['en'], 'builder-content-guide' ) ) . '</li>';
+				echo '<li><span class="bcg-badge">' . esc_html( $categories[ $entry['category'] ] ?? '' ) . '</span> ' . esc_html( history_message( $entry['en'] ) ) . '</li>';
 			}
 			echo '</ul>';
 		}
-		echo '<button type="button" class="button" data-bcg-close>' . esc_html__( 'Close', 'builder-content-guide' ) . '</button></dialog>';
+		echo '<form method="dialog"><button type="submit" class="button" data-bcg-close>' . esc_html__( 'Close', 'builder-content-guide' ) . '</button></form></dialog>';
 	}
 }

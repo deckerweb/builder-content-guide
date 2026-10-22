@@ -1,22 +1,18 @@
-**Builder Content Guide**
+## English
 
-[Home / Startseite](Home)
-
-**English**
-
+- [Home](Home)
+- [Getting started](Usage#administrators-set-up-the-guide)
 - [User guide](Usage)
-- [Find content](Usage#readers-find-and-edit-content)
-- [Everyday tasks](Usage#three-everyday-tasks)
-- [Set up the guide](Usage#administrators-set-up-the-guide)
 - [FAQ by topic](FAQ)
 - [Changelog](Changelog)
+- [Help and security](https://github.com/deckerweb/builder-content-guide/blob/main/SECURITY.md)
 
-**Deutsch**
+## Deutsch
 
-- [Nutzungsanleitung](Usage-de)
-- [Inhalte finden](Usage-de#für-leser-inhalte-finden-und-bearbeiten)
-- [Praxisbeispiele](Usage-de#drei-aufgaben-aus-dem-alltag)
-- [Guide einrichten](Usage-de#für-administratoren-den-guide-einrichten)
+- [Startseite](Home-de)
+- [Erste Schritte](Usage-de#für-administratoren-den-guide-einrichten)
+- [Anleitung](Usage-de)
 - [Fragen nach Themen](FAQ-de)
 - [Änderungsverlauf](Changelog-de)
+- [Hilfe und Sicherheit](https://github.com/deckerweb/builder-content-guide/blob/main/SECURITY-de.md)
 

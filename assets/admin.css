@@ -4,3 +4,5 @@
 .bcg-picker{border:1px solid #dcdcde;padding:16px;background:#f6f7f7;margin-bottom:16px}.bcg-picker[hidden]{display:none}.bcg-picker legend{font-weight:600;padding:0 6px}.bcg select[size]{min-height:190px}.bcg-share{border-top:1px solid #dcdcde;margin:20px 0;padding-top:4px}.bcg-share input{margin-bottom:10px}.bcg-share [role=status]{display:block;margin-top:8px}.bcg-steps li{margin-bottom:10px;overflow-wrap:anywhere}.bcg select option{overflow-wrap:anywhere}
 
 .bcg-menu-settings{margin-top:24px}.bcg-menu-settings .dashicons{vertical-align:middle}
+
+.bcg #bcg-changelog[hidden],.bcg #bcg-changelog:not([open]){display:none!important;visibility:hidden!important;pointer-events:none!important}.bcg #bcg-changelog[open]:not([hidden]){display:block;visibility:visible}.bcg-icon{vertical-align:middle;border-radius:10px;margin-right:8px}.bcg h1{display:flex;align-items:center}

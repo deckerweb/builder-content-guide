@@ -8,17 +8,24 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) { exit; }
 
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
 deckerweb_library_uninstall_v3( __DIR__ . '/builder-content-guide.php' );
-delete_site_transient( 'ddw_ghru_' . substr( md5( 'https://github.com/deckerweb/builder-content-guide' ), 0, 24 ) );
-// The package is physically shared across networks; remove only its known updater cache.
+// Cleanup is bounded to this host's legacy and installed updater metadata keys.
+$builder_content_guide_caches = array();
+foreach ( array( 'https://github.com/deckerweb/builder-content-guide', 'https://github.com/deckerweb/builder-content-guide|2.2.1' ) as $builder_content_guide_identity ) {
+ $builder_content_guide_key = 'ddw_ghru_' . substr( md5( $builder_content_guide_identity ), 0, 24 );
+ $builder_content_guide_caches[] = $builder_content_guide_key;
+ $builder_content_guide_caches[] = $builder_content_guide_key . '_private';
+}
+foreach ( $builder_content_guide_caches as $builder_content_guide_cache ) { delete_site_transient( $builder_content_guide_cache ); }
 if ( is_multisite() ) {
-	$bcg_offset = 0;
-	$bcg_cache = 'ddw_ghru_' . substr( md5( 'https://github.com/deckerweb/builder-content-guide' ), 0, 24 );
-	do {
-		$bcg_networks = get_networks( array( 'fields' => 'ids', 'number' => 100, 'offset' => $bcg_offset ) );
-		foreach ( $bcg_networks as $bcg_network ) {
-			delete_network_option( $bcg_network, '_site_transient_' . $bcg_cache );
-			delete_network_option( $bcg_network, '_site_transient_timeout_' . $bcg_cache );
-		}
-		$bcg_offset += count( $bcg_networks );
-	} while ( count( $bcg_networks ) === 100 );
+ $builder_content_guide_offset = 0;
+ do {
+  $builder_content_guide_networks = get_networks( array( 'fields' => 'ids', 'number' => 100, 'offset' => $builder_content_guide_offset ) );
+  foreach ( $builder_content_guide_networks as $builder_content_guide_network ) {
+   foreach ( $builder_content_guide_caches as $builder_content_guide_cache ) {
+    delete_network_option( $builder_content_guide_network, '_site_transient_' . $builder_content_guide_cache );
+    delete_network_option( $builder_content_guide_network, '_site_transient_timeout_' . $builder_content_guide_cache );
+   }
+  }
+  $builder_content_guide_offset += count( $builder_content_guide_networks );
+ } while ( count( $builder_content_guide_networks ) === 100 );
 }

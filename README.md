@@ -6,7 +6,7 @@
 
 Find the right website building block, understand what a change affects, and open its original editor. The website administrator curates a small handover guide; content stays in WordPress and its active builders. You do not need a guide for every content item. Start with frequent maintenance tasks, common stumbling blocks and shared templates whose changes affect several places.
 
-Version 1.0.0 · Stable Release · WordPress 7.0+ · PHP 8.0+
+Version 1.0.1 · Stable Release · WordPress 7.0+ · PHP 8.1+
 
 [User guide](docs/usage.md) · [FAQ by topic](docs/FAQ.md) · [Documentation](https://deckerweb.github.io/builder-content-guide/index.html) · [Deutsch](README-de.md)
 
@@ -126,13 +126,19 @@ Guide entries, reader access, support contact and menu preferences are stored se
 
 ## Optional online services
 
-The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 0.8.1 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.1.0 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. Source code is available at https://github.com/deckerweb/builder-content-guide. No stable release has been published yet.
+The guide works locally and has no cloud or AI service dependency. Bundled deckerweb Library 1.1.0 offers an optional plugin catalog; its online catalog starts disabled. The bundled deckerweb Updater 2.2.1 uses GitHub through the native WordPress update workflow. GitHub receives standard WordPress HTTP request metadata and the public repository path. No guide entries or original content are sent. Source code is available at https://github.com/deckerweb/builder-content-guide. No stable release has been published yet.
 
 ## Testing status
 
 Runtime checks: WordPress 7.0 with PHP 8.1.29 and WordPress 7.1.3 with PHP 8.4.5. PHP 8.0 has not been tested. Tested with Elementor Free 4.3.4 and Elementor Pro 4.3.1. Inactive document types are unavailable; clipboard failure falls back to selecting the link for manual copying.
 
 ## Changelog
+
+### 1.0.1 (2026-10-22)
+
+- **Improved:** Updated plugin catalog and GitHub update support.
+- **Fixed:** The changelog remains closed until requested and keeps a documentation fallback.
+- **Misc:** Requires PHP 8.1 or later; WordPress 7.0 remains the minimum.
 
 ### 1.0.0 — Stable Release (2026-10-08)
 
@@ -160,4 +166,4 @@ For editing help on your website, use the support contact configured by your adm
 
 ## License and bundled components
 
-Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Bundled unchanged deckerweb Library 0.8.1 and deckerweb Updater 2.1.0 by David Decker, both GPL-2.0-or-later. Sources: https://github.com/deckerweb/deckerweb-plugin-library and https://github.com/deckerweb/deckerweb-updater. No Elementor, Bricks or GP Premium source code is included.
+Copyright © 2026 David Decker – DECKERWEB. GPL-2.0-or-later. Bundled unchanged deckerweb Library 1.1.0 and deckerweb Updater 2.2.1 by David Decker, both GPL-2.0-or-later. Sources: https://github.com/deckerweb/deckerweb-plugin-library and https://github.com/deckerweb/deckerweb-updater. No Elementor, Bricks or GP Premium source code is included.
