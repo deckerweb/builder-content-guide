@@ -11,14 +11,12 @@ final class Components {
 	 * @return void
 	 */
 	public static function updater(): void {
-		if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
-			require_once __DIR__ . '/deckerweb-github-release-updater-v2.php';
-		}
-		if ( ! defined( '\Deckerweb\GitHubReleaseUpdater\V2\Updater::SUPPORTS_HOST_TRANSLATIONS' ) || ! \Deckerweb\GitHubReleaseUpdater\V2\Updater::SUPPORTS_HOST_TRANSLATIONS ) {
+		$updater_class = require __DIR__ . '/deckerweb-github-release-updater-v2.php';
+		if ( ! is_string( $updater_class ) || ! class_exists( $updater_class, false ) || ! defined( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) || ! constant( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) ) {
 			add_action( 'admin_notices', array( self::class, 'notice' ) ); return;
 		}
 		try {
-			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater( BCG_FILE, self::REPOSITORY, 'Builder Content Guide', __( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ), self::artwork(), array( 'translate' => require __DIR__ . '/updater-translations.php' ) );
+			$updater = new $updater_class( BCG_FILE, self::REPOSITORY, 'Builder Content Guide', __( 'Find the right building block and understand what your change affects.', 'builder-content-guide' ), self::artwork(), array( 'translate' => require __DIR__ . '/updater-translations.php' ) );
 			$updater->register();
 			add_filter( 'upgrader_source_selection', array( self::class, 'validate_package' ), 30, 4 );
 		} catch ( \InvalidArgumentException $exception ) {

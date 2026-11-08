@@ -7,10 +7,10 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) { exit; }
 
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
-deckerweb_library_uninstall_v3( __DIR__ . '/builder-content-guide.php' );
+deckerweb_library_uninstall_v4( __DIR__ . '/builder-content-guide.php' );
 // Cleanup is bounded to this host's legacy and installed updater metadata keys.
 $builder_content_guide_caches = array();
-foreach ( array( 'https://github.com/deckerweb/builder-content-guide', 'https://github.com/deckerweb/builder-content-guide|2.2.1' ) as $builder_content_guide_identity ) {
+foreach ( array( 'https://github.com/deckerweb/builder-content-guide', 'https://github.com/deckerweb/builder-content-guide|2.2.1', 'https://github.com/deckerweb/builder-content-guide|2.4.0' ) as $builder_content_guide_identity ) {
  $builder_content_guide_key = 'ddw_ghru_' . substr( md5( $builder_content_guide_identity ), 0, 24 );
  $builder_content_guide_caches[] = $builder_content_guide_key;
  $builder_content_guide_caches[] = $builder_content_guide_key . '_private';

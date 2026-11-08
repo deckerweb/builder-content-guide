@@ -1,5 +1,17 @@
 [
   {
+    "version": "1.0.2",
+    "date": "2026-11-09",
+    "development": false,
+    "entries": [
+      {
+        "category": "fixed",
+        "en": "Updated plugin catalog and GitHub update support.",
+        "de": "Plugin-Katalog und GitHub-Updates aktualisiert."
+      }
+    ]
+  },
+  {
     "version": "1.0.1",
     "date": "2026-10-22",
     "development": false,

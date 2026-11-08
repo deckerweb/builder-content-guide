@@ -1302,3 +1302,255 @@ msgstr ""
 
 msgid "Requires PHP 8.1 or later; WordPress 7.0 remains the minimum."
 msgstr ""
+
+msgid "%1$s of %2$s plugins"
+msgstr ""
+
+msgid "Action cancelled."
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Active filters: "
+msgstr ""
+
+msgid "Affected features remain paused until their requirements are met."
+msgstr ""
+
+msgid "Already up to date."
+msgstr ""
+
+msgid "Another component interrupted the request. If Git Updater is active, temporarily deactivate it and retry."
+msgstr ""
+
+msgid "Another updater provides a different release. Refresh updates before continuing."
+msgstr ""
+
+msgid "Archive verification"
+msgstr ""
+
+msgid "Bundled catalog"
+msgstr ""
+
+msgid "Cached or bundled catalog"
+msgstr ""
+
+msgid "Catalog approval"
+msgstr ""
+
+msgid "Catalog diagnostics require a public catalog provider."
+msgstr ""
+
+msgid "Catalog refreshed."
+msgstr ""
+
+msgid "Catalog retrieval does not limit updates of installed plugins. Those use their normal WordPress update provider."
+msgstr ""
+
+msgid "Catalog verification"
+msgstr ""
+
+msgid "Checksum verification"
+msgstr ""
+
+msgid "Connection failed. Please try again later."
+msgstr ""
+
+msgid "Copied."
+msgstr ""
+
+msgid "Copy diagnostic information"
+msgstr ""
+
+msgid "Discover randomly"
+msgstr ""
+
+msgid "Filesystem credentials are required. Use the catalog with JavaScript enabled or the native Plugins screen."
+msgstr ""
+
+msgid "HTTP status: %d."
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Installed plugin identity does not match the approved release."
+msgstr ""
+
+msgid "Installed plugins use their normal update provider. Reload the update information and try again."
+msgstr ""
+
+msgid "Installed · inactive"
+msgstr ""
+
+msgid "Invalid package cleanup provider."
+msgstr ""
+
+msgid "Invalid private download limits."
+msgstr ""
+
+msgid "Invalid sort order."
+msgstr ""
+
+msgid "Invalid status filter."
+msgstr ""
+
+msgid "Last successful check: "
+msgstr ""
+
+msgid "Name A–Z"
+msgstr ""
+
+msgid "Name Z–A"
+msgstr ""
+
+msgid "Network active"
+msgstr ""
+
+msgid "No update reported."
+msgstr ""
+
+msgid "Not installed"
+msgstr ""
+
+msgid "Package download"
+msgstr ""
+
+msgid "Permission denied. Reload the page and check your permissions."
+msgstr ""
+
+msgid "Plugin status"
+msgstr ""
+
+msgid "Recently updated"
+msgstr ""
+
+msgid "Remove filter: "
+msgstr ""
+
+msgid "Reset view"
+msgstr ""
+
+msgid "Safe package cleanup is unavailable for this update provider."
+msgstr ""
+
+msgid "Select and copy the text."
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Shuffle again"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Stage: %1$s. %2$s"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Technical information"
+msgstr ""
+
+msgid "The approved package could not be verified."
+msgstr ""
+
+msgid "The archive or plugin identity could not be verified. Installation was stopped."
+msgstr ""
+
+msgid "The catalog response is invalid, incompatible or too large."
+msgstr ""
+
+msgid "The connection timed out. Please try again later."
+msgstr ""
+
+msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
+msgstr ""
+
+msgid "The installed plugin identity could not be verified for this catalog update."
+msgstr ""
+
+msgid "The installed plugin identity could not be verified. Use the Plugins screen to review it."
+msgstr ""
+
+msgid "The package checksum does not match the approved release. Installation was stopped."
+msgstr ""
+
+msgid "The package did not pass the archive or plugin identity checks. Installation was stopped."
+msgstr ""
+
+msgid "The package does not match the approved checksum. Installation was stopped."
+msgstr ""
+
+msgid "The requirements below describe the catalog version for first installation, not an installed-plugin update."
+msgstr ""
+
+msgid "The secure connection could not be verified."
+msgstr ""
+
+msgid "The secure connection to the update server failed."
+msgstr ""
+
+msgid "The server address could not be resolved."
+msgstr ""
+
+msgid "The server returned HTTP %d. Please try again later."
+msgstr ""
+
+msgid "The update has not been confirmed. You can try again."
+msgstr ""
+
+msgid "The update package identity, version or requirements could not be verified."
+msgstr ""
+
+msgid "The update provider did not return valid update data."
+msgstr ""
+
+msgid "The update request timed out. Try again later."
+msgstr ""
+
+msgid "The update server address could not be resolved."
+msgstr ""
+
+msgid "The update server could not be reached. Try again later."
+msgstr ""
+
+msgid "The update server returned an unsuccessful HTTP response."
+msgstr ""
+
+msgid "These details contain component versions and catalog status, without credentials or site content."
+msgstr ""
+
+msgid "Update available"
+msgstr ""
+
+msgid "Update available: %s"
+msgstr ""
+
+msgid "Update failed."
+msgstr ""
+
+msgid "Update information changed. Reload the page and try again."
+msgstr ""
+
+msgid "Update stopped at %1$s: %2$s"
+msgstr ""
+
+msgid "Update to %s"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Updating…"
+msgstr ""
+
+msgid "Use the Plugins screen to manage this installed plugin."
+msgstr ""
+
+msgid "Verified first installations · Independent plugin updates"
+msgstr ""
